@@ -1,0 +1,3340 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <title>71ea8927b7b64ee0a9962e5f4184ae61</title>
+  <style>
+    html {
+      line-height: 1.5;
+      font-family: Georgia, serif;
+      font-size: 20px;
+      color: #1a1a1a;
+      background-color: #fdfdfd;
+    }
+    body {
+      margin: 0 auto;
+      max-width: 36em;
+      padding-left: 50px;
+      padding-right: 50px;
+      padding-top: 50px;
+      padding-bottom: 50px;
+      hyphens: auto;
+      overflow-wrap: break-word;
+      text-rendering: optimizeLegibility;
+      font-kerning: normal;
+    }
+    @media (max-width: 600px) {
+      body {
+        font-size: 0.9em;
+        padding: 1em;
+      }
+      h1 {
+        font-size: 1.8em;
+      }
+    }
+    @media print {
+      body {
+        background-color: transparent;
+        color: black;
+        font-size: 12pt;
+      }
+      p, h2, h3 {
+        orphans: 3;
+        widows: 3;
+      }
+      h2, h3, h4 {
+        page-break-after: avoid;
+      }
+    }
+    p {
+      margin: 1em 0;
+    }
+    a {
+      color: #1a1a1a;
+    }
+    a:visited {
+      color: #1a1a1a;
+    }
+    img {
+      max-width: 100%;
+    }
+    h1, h2, h3, h4, h5, h6 {
+      margin-top: 1.4em;
+    }
+    h5, h6 {
+      font-size: 1em;
+      font-style: italic;
+    }
+    h6 {
+      font-weight: normal;
+    }
+    ol, ul {
+      padding-left: 1.7em;
+      margin-top: 1em;
+    }
+    li > ol, li > ul {
+      margin-top: 0;
+    }
+    blockquote {
+      margin: 1em 0 1em 1.7em;
+      padding-left: 1em;
+      border-left: 2px solid #e6e6e6;
+      color: #606060;
+    }
+    code {
+      font-family: Menlo, Monaco, 'Lucida Console', Consolas, monospace;
+      font-size: 85%;
+      margin: 0;
+    }
+    pre {
+      margin: 1em 0;
+      overflow: auto;
+    }
+    pre code {
+      padding: 0;
+      overflow: visible;
+      overflow-wrap: normal;
+    }
+    .sourceCode {
+     background-color: transparent;
+     overflow: visible;
+    }
+    hr {
+      background-color: #1a1a1a;
+      border: none;
+      height: 1px;
+      margin: 1em 0;
+    }
+    table {
+      margin: 1em 0;
+      border-collapse: collapse;
+      width: 100%;
+      overflow-x: auto;
+      display: block;
+      font-variant-numeric: lining-nums tabular-nums;
+    }
+    table caption {
+      margin-bottom: 0.75em;
+    }
+    tbody {
+      margin-top: 0.5em;
+      border-top: 1px solid #1a1a1a;
+      border-bottom: 1px solid #1a1a1a;
+    }
+    th {
+      border-top: 1px solid #1a1a1a;
+      padding: 0.25em 0.5em 0.25em 0.5em;
+    }
+    td {
+      padding: 0.125em 0.5em 0.25em 0.5em;
+    }
+    header {
+      margin-bottom: 4em;
+      text-align: center;
+    }
+    #TOC li {
+      list-style: none;
+    }
+    #TOC ul {
+      padding-left: 1.3em;
+    }
+    #TOC > ul {
+      padding-left: 0;
+    }
+    #TOC a:not(:hover) {
+      text-decoration: none;
+    }
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    div.columns{display: flex; gap: min(4vw, 1.5em);}
+    div.column{flex: auto; overflow-x: auto;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    ul.task-list{list-style: none;}
+    ul.task-list li input[type="checkbox"] {
+      width: 0.8em;
+      margin: 0 0.8em 0.2em -1.6em;
+      vertical-align: middle;
+    }
+    pre > code.sourceCode { white-space: pre; position: relative; }
+    pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+    pre > code.sourceCode > span:empty { height: 1.2em; }
+    .sourceCode { overflow: visible; }
+    code.sourceCode > span { color: inherit; text-decoration: inherit; }
+    div.sourceCode { margin: 1em 0; }
+    pre.sourceCode { margin: 0; }
+    @media screen {
+    div.sourceCode { overflow: auto; }
+    }
+    @media print {
+    pre > code.sourceCode { white-space: pre-wrap; }
+    pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+    }
+    pre.numberSource code
+      { counter-reset: source-line 0; }
+    pre.numberSource code > span
+      { position: relative; left: -4em; counter-increment: source-line; }
+    pre.numberSource code > span > a:first-child::before
+      { content: counter(source-line);
+        position: relative; left: -1em; text-align: right; vertical-align: baseline;
+        border: none; display: inline-block;
+        -webkit-touch-callout: none; -webkit-user-select: none;
+        -khtml-user-select: none; -moz-user-select: none;
+        -ms-user-select: none; user-select: none;
+        padding: 0 4px; width: 4em;
+        color: #aaaaaa;
+      }
+    pre.numberSource { margin-left: 3em; border-left: 1px solid #aaaaaa;  padding-left: 4px; }
+    div.sourceCode
+      {   }
+    @media screen {
+    pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+    }
+    code span.al { color: #ff0000; font-weight: bold; } /* Alert */
+    code span.an { color: #60a0b0; font-weight: bold; font-style: italic; } /* Annotation */
+    code span.at { color: #7d9029; } /* Attribute */
+    code span.bn { color: #40a070; } /* BaseN */
+    code span.bu { color: #008000; } /* BuiltIn */
+    code span.cf { color: #007020; font-weight: bold; } /* ControlFlow */
+    code span.ch { color: #4070a0; } /* Char */
+    code span.cn { color: #880000; } /* Constant */
+    code span.co { color: #60a0b0; font-style: italic; } /* Comment */
+    code span.cv { color: #60a0b0; font-weight: bold; font-style: italic; } /* CommentVar */
+    code span.do { color: #ba2121; font-style: italic; } /* Documentation */
+    code span.dt { color: #902000; } /* DataType */
+    code span.dv { color: #40a070; } /* DecVal */
+    code span.er { color: #ff0000; font-weight: bold; } /* Error */
+    code span.ex { } /* Extension */
+    code span.fl { color: #40a070; } /* Float */
+    code span.fu { color: #06287e; } /* Function */
+    code span.im { color: #008000; font-weight: bold; } /* Import */
+    code span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Information */
+    code span.kw { color: #007020; font-weight: bold; } /* Keyword */
+    code span.op { color: #666666; } /* Operator */
+    code span.ot { color: #007020; } /* Other */
+    code span.pp { color: #bc7a00; } /* Preprocessor */
+    code span.sc { color: #4070a0; } /* SpecialChar */
+    code span.ss { color: #bb6688; } /* SpecialString */
+    code span.st { color: #4070a0; } /* String */
+    code span.va { color: #19177c; } /* Variable */
+    code span.vs { color: #4070a0; } /* VerbatimString */
+    code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warning */
+    .display.math{display: block; text-align: center; margin: 0.5rem auto;}
+  </style>
+  <!--[if lt IE 9]>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script>
+  <![endif]-->
+</head>
+<body>
+<div id="MguULLWiU9SG" class="cell markdown" id="MguULLWiU9SG">
+<h1
+id="an-analysis-of-the-effects-of-air-pollution-on-health-in-california">An
+Analysis of the Effects of Air Pollution on Health in California</h1>
+<p>Jack Anderson, Josh Lu, Thomas Johnson, Tyler Kempton</p>
+<hr />
+<h1 id="what-is-air-pollution">What is Air Pollution?</h1>
+<p>When chemical, physical, or biological agents are relased into the
+enviorment, that enviorment becomes polluted over time. Air pollution is
+the Air pollution is the contamination of an enviornment by any
+chemical, physical or biological agent that modifies the natural
+characteristics of the atmosphere.</p>
+<p>It is primarily caused by vehicle emissions, the burning of fuel oils
+and natural gas, and as a by-product of manufacturing and power
+generation.</p>
+<h1 id="why-care-about-air-pollution">Why Care about Air Pollution?</h1>
+<p>Air pollution is one of the world's leading health risk factors, with
+an estimated 6.7 million premature deaths ocurring annually due to its
+prevelance. The World Health Organization and the Center for Disease
+Control both recognize the prevelance of pollutants in the air as a <a
+href="https://www.who.int/health-topics/air-pollution#tab=tab_1">major
+threat to public health</a>.</p>
+<p>Due to the fact that air pollution is mostly caused by human
+industrialization, different areas experience vastly different levels of
+pollution, with urban areas typically being far worse off than rural
+areas.</p>
+<p>More than <a
+href="https://www.who.int/news/item/04-04-2022-billions-of-people-still-breathe-unhealthy-air-new-who-data">99%
+of the world's population</a> lives in an area exceeding WHO air quality
+limits. With a greater percent of the world population living in densly
+populated urban areas each year, this means that more and more people
+will be concentrated in areas where air pollution is worst.</p>
+<p>Air pollution is believed to <a
+href="https://www.lung.org/clean-air/outdoors/who-is-at-risk/disparities">disproportionatally
+affect</a> certain groups of people. Notably, immunocompromised and
+working class individuals are those that are generally thought to be
+more often affected negatively by high exposure to contaminated air in
+their area.</p>
+<h1 id="what-is-our-goal">What is our Goal?</h1>
+<p>We want to use our knowledge to analyze the extent to which air
+quality, measured as AQI, affects the health of humans. We want to
+specifically evaluate lung diseases that are commonly associated with
+poor air quality, such as asthma, chronic obstructive pulmonary disease
+(COPD), and lung cancer. Ideally our goal is to establish some kind of
+correlation between air quality and these diseases.</p>
+<h1 id="what-data-are-we-using">What Data are we using?</h1>
+<p>We will be exlusively using data collected on the various counties of
+California over the 2015-2019 time interval. We selected California for
+this demonstration as there are many readily available datasets on AQI,
+income, and health conditions present. Through a basic analysis of our
+data, we saw that California also has a wide range of counties with very
+good AQIs and very poor AQIs. The 2015-2019 interval is ideal for our
+investigation because it provides us a range of years that are
+relatively recent, meaning the results of our analysis will still be
+relevant to the real world. Evaluating data for a range of years will
+also protect us from analyzing only a particular year that could be an
+outlier (a year that had a high number of forest fires, for example).
+Because our analysis is not focused on differences across time, the
+shorter time frame of 5 years is acceptable.</p>
+</div>
+<div id="PoOGCyfX6c4s" class="cell markdown" id="PoOGCyfX6c4s">
+<h1 id="importing-libraries">Importing Libraries</h1>
+<p>Our work requires libraries commonly associated with data science
+such as numpy and pandas. We use matplotlib for data visualization,
+beautifulsoup for web scraping, and sklearn and smf for our hypothesis
+testing, as well as a few other libraries for various purposes.</p>
+</div>
+<div id="Z9SVBBPpbBk5" class="cell code"
+data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;}"
+id="Z9SVBBPpbBk5" data-outputId="56cd9d3e-de5e-4d3b-bfda-9ee372efb8d5">
+<div class="sourceCode" id="cb1"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="co">#Downloading Necessary Libraries</span></span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="op">%</span>pip install lxml</span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a><span class="op">%</span>pip install html5lib</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>Looking in indexes: https://pypi.org/simple, https://us-python.pkg.dev/colab-wheels/public/simple/
+Requirement already satisfied: lxml in /usr/local/lib/python3.10/dist-packages (4.9.2)
+Looking in indexes: https://pypi.org/simple, https://us-python.pkg.dev/colab-wheels/public/simple/
+Requirement already satisfied: html5lib in /usr/local/lib/python3.10/dist-packages (1.1)
+Requirement already satisfied: six&gt;=1.9 in /usr/local/lib/python3.10/dist-packages (from html5lib) (1.16.0)
+Requirement already satisfied: webencodings in /usr/local/lib/python3.10/dist-packages (from html5lib) (0.5.1)
+</code></pre>
+</div>
+</div>
+<div id="263303e6-c5b9-4335-8798-419443fade0e" class="cell code"
+id="263303e6-c5b9-4335-8798-419443fade0e">
+<div class="sourceCode" id="cb3"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="co">#Final Tutorial</span></span>
+<span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a><span class="co">#Importing Necessary Libraries </span></span>
+<span id="cb3-3"><a href="#cb3-3" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> sqlite3</span>
+<span id="cb3-4"><a href="#cb3-4" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> numpy <span class="im">as</span> np</span>
+<span id="cb3-5"><a href="#cb3-5" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> pandas <span class="im">as</span> pd</span>
+<span id="cb3-6"><a href="#cb3-6" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> math</span>
+<span id="cb3-7"><a href="#cb3-7" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> matplotlib.pyplot <span class="im">as</span> plt</span>
+<span id="cb3-8"><a href="#cb3-8" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> requests</span>
+<span id="cb3-9"><a href="#cb3-9" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> statsmodels.api <span class="im">as</span> sm</span>
+<span id="cb3-10"><a href="#cb3-10" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> statsmodels.formula.api <span class="im">as</span> smf</span>
+<span id="cb3-11"><a href="#cb3-11" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> sklearn.linear_model <span class="im">import</span> LinearRegression</span>
+<span id="cb3-12"><a href="#cb3-12" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> seaborn</span>
+<span id="cb3-13"><a href="#cb3-13" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> html5lib</span>
+<span id="cb3-14"><a href="#cb3-14" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> re</span>
+<span id="cb3-15"><a href="#cb3-15" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> inspect</span>
+<span id="cb3-16"><a href="#cb3-16" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> bs4 <span class="im">import</span> BeautifulSoup</span></code></pre></div>
+</div>
+<div id="psbv607TmItA" class="cell markdown" id="psbv607TmItA">
+<p>#Data Collection</p>
+</div>
+<div id="1ZYClYWY1YGx" class="cell markdown" id="1ZYClYWY1YGx">
+<p>We compiled data from a variety of sources listed below:</p>
+<ul>
+<li>To establish a big-picture overview of our problem, we scraped data
+on asthma prevalence across the country from the Center for Disease
+Control (CDC) website for the timeframe 2015-2019. This archived data
+provides a number and percentage of citizens with asthma in each
+state.</li>
+<li>Our data for AQI by county came from the Environmental Protection
+Agency (EPA) AirData project, where air quality measurements are
+compiled from all around the country and provided publicly for different
+years. We compiled the average annual AQI by county datasets for each
+year in our timeframe into one CSV file.</li>
+<li>The data for asthma hospitalizations came from a public data catalog
+maintained by the State of California forund on data.gov. The dataset
+contains the number of hosopitalizations per year per California county,
+as well as information detailing counts among different age groups and
+ethnicities.</li>
+<li>The data for mean personal income by county came from the Bureau of
+Economic analysis, gathered by the counties themselves. The data was
+originally for all states so we had to trim it down to just
+California.</li>
+</ul>
+</div>
+<div id="ewREgRcvaNMQ" class="cell code" id="ewREgRcvaNMQ">
+<div class="sourceCode" id="cb4"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a><span class="co">#The urls for each year from 2014-2020 of state asthma data</span></span>
+<span id="cb4-2"><a href="#cb4-2" aria-hidden="true" tabindex="-1"></a>url <span class="op">=</span> <span class="st">&quot;https://www.cdc.gov/asthma/most_recent_data_states.htm&quot;</span></span>
+<span id="cb4-3"><a href="#cb4-3" aria-hidden="true" tabindex="-1"></a>url2 <span class="op">=</span> <span class="st">&quot;https://www.cdc.gov/asthma/archivedata/2019/2019_archived_states_territory.html&quot;</span></span>
+<span id="cb4-4"><a href="#cb4-4" aria-hidden="true" tabindex="-1"></a>url3 <span class="op">=</span> <span class="st">&quot;https://www.cdc.gov/asthma/archivedata/2018/2018_archived_states_territory.html&quot;</span></span>
+<span id="cb4-5"><a href="#cb4-5" aria-hidden="true" tabindex="-1"></a>url4 <span class="op">=</span> <span class="st">&quot;https://www.cdc.gov/asthma/archivedata/2017/2017_archived_states_territory.html&quot;</span></span>
+<span id="cb4-6"><a href="#cb4-6" aria-hidden="true" tabindex="-1"></a>url5 <span class="op">=</span> <span class="st">&quot;https://www.cdc.gov/asthma/archivedata/2016/2016-archived-data-states.html&quot;</span></span>
+<span id="cb4-7"><a href="#cb4-7" aria-hidden="true" tabindex="-1"></a>url6 <span class="op">=</span> <span class="st">&quot;https://www.cdc.gov/asthma/archivedata/2015/2015_data_states.html&quot;</span></span>
+<span id="cb4-8"><a href="#cb4-8" aria-hidden="true" tabindex="-1"></a>url7 <span class="op">=</span> <span class="st">&quot;https://www.cdc.gov/asthma/archivedata/2014/2014_data_states.html&quot;</span></span>
+<span id="cb4-9"><a href="#cb4-9" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-10"><a href="#cb4-10" aria-hidden="true" tabindex="-1"></a><span class="co"># Header tells the website who the user trying to access the data is</span></span>
+<span id="cb4-11"><a href="#cb4-11" aria-hidden="true" tabindex="-1"></a><span class="co"># Stops the website from figuring out that we are trying to scrape data from it</span></span>
+<span id="cb4-12"><a href="#cb4-12" aria-hidden="true" tabindex="-1"></a>headers <span class="op">=</span> {</span>
+<span id="cb4-13"><a href="#cb4-13" aria-hidden="true" tabindex="-1"></a>    <span class="st">&#39;User-Agent&#39;</span>: <span class="st">&#39;Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36&#39;</span>,</span>
+<span id="cb4-14"><a href="#cb4-14" aria-hidden="true" tabindex="-1"></a>    <span class="st">&#39;From&#39;</span>: <span class="st">&#39;jackand356@gmail.com&#39;</span></span>
+<span id="cb4-15"><a href="#cb4-15" aria-hidden="true" tabindex="-1"></a>}</span>
+<span id="cb4-16"><a href="#cb4-16" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-17"><a href="#cb4-17" aria-hidden="true" tabindex="-1"></a><span class="co"># Grabs each of the pages from the urls, using requests</span></span>
+<span id="cb4-18"><a href="#cb4-18" aria-hidden="true" tabindex="-1"></a>page <span class="op">=</span> requests.get(url, headers<span class="op">=</span>headers)</span>
+<span id="cb4-19"><a href="#cb4-19" aria-hidden="true" tabindex="-1"></a>page2 <span class="op">=</span> requests.get(url2, headers<span class="op">=</span>headers)</span>
+<span id="cb4-20"><a href="#cb4-20" aria-hidden="true" tabindex="-1"></a>page3 <span class="op">=</span> requests.get(url3, headers<span class="op">=</span>headers)</span>
+<span id="cb4-21"><a href="#cb4-21" aria-hidden="true" tabindex="-1"></a>page4 <span class="op">=</span> requests.get(url4, headers<span class="op">=</span>headers)</span>
+<span id="cb4-22"><a href="#cb4-22" aria-hidden="true" tabindex="-1"></a>page5 <span class="op">=</span> requests.get(url5, headers<span class="op">=</span>headers)</span>
+<span id="cb4-23"><a href="#cb4-23" aria-hidden="true" tabindex="-1"></a>page6 <span class="op">=</span> requests.get(url6, headers<span class="op">=</span>headers)</span>
+<span id="cb4-24"><a href="#cb4-24" aria-hidden="true" tabindex="-1"></a>page7 <span class="op">=</span> requests.get(url7, headers<span class="op">=</span>headers)</span></code></pre></div>
+</div>
+<div id="dQDre33maRe-" class="cell code"
+data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;,&quot;height&quot;:206}"
+id="dQDre33maRe-" data-outputId="e1821956-a79e-484e-f30b-4359e847cdbb">
+<div class="sourceCode" id="cb5"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Creates a soup out of the text of each page</span></span>
+<span id="cb5-2"><a href="#cb5-2" aria-hidden="true" tabindex="-1"></a>soup <span class="op">=</span> BeautifulSoup(page.text)</span>
+<span id="cb5-3"><a href="#cb5-3" aria-hidden="true" tabindex="-1"></a>soup2 <span class="op">=</span> BeautifulSoup(page2.text)</span>
+<span id="cb5-4"><a href="#cb5-4" aria-hidden="true" tabindex="-1"></a>soup3 <span class="op">=</span> BeautifulSoup(page3.text)</span>
+<span id="cb5-5"><a href="#cb5-5" aria-hidden="true" tabindex="-1"></a>soup4 <span class="op">=</span> BeautifulSoup(page4.text)</span>
+<span id="cb5-6"><a href="#cb5-6" aria-hidden="true" tabindex="-1"></a>soup5 <span class="op">=</span> BeautifulSoup(page5.text)</span>
+<span id="cb5-7"><a href="#cb5-7" aria-hidden="true" tabindex="-1"></a>soup6 <span class="op">=</span> BeautifulSoup(page6.text)</span>
+<span id="cb5-8"><a href="#cb5-8" aria-hidden="true" tabindex="-1"></a>soup7 <span class="op">=</span> BeautifulSoup(page7.text)</span>
+<span id="cb5-9"><a href="#cb5-9" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb5-10"><a href="#cb5-10" aria-hidden="true" tabindex="-1"></a><span class="co"># Using beautiful soup, it allows us to find a specific table out of each of pages</span></span>
+<span id="cb5-11"><a href="#cb5-11" aria-hidden="true" tabindex="-1"></a><span class="co"># Getting just the data from our specified table</span></span>
+<span id="cb5-12"><a href="#cb5-12" aria-hidden="true" tabindex="-1"></a>htmltable <span class="op">=</span> soup.find(<span class="st">&#39;table&#39;</span>, { <span class="st">&#39;class&#39;</span> : <span class="st">&#39;table table-striped table-bordered nein-scroll&#39;</span> })</span>
+<span id="cb5-13"><a href="#cb5-13" aria-hidden="true" tabindex="-1"></a>htmltable2 <span class="op">=</span> soup2.find(<span class="st">&#39;table&#39;</span>, { <span class="st">&#39;class&#39;</span> : <span class="st">&#39;table table-striped table-bordered nein-scroll&#39;</span> })</span>
+<span id="cb5-14"><a href="#cb5-14" aria-hidden="true" tabindex="-1"></a>htmltable3 <span class="op">=</span> soup3.find(<span class="st">&#39;table&#39;</span>, { <span class="st">&#39;class&#39;</span> : <span class="st">&#39;table table-striped table-bordered nein-scroll&#39;</span> })</span>
+<span id="cb5-15"><a href="#cb5-15" aria-hidden="true" tabindex="-1"></a>htmltable4 <span class="op">=</span> soup4.find(<span class="st">&#39;table&#39;</span>, { <span class="st">&#39;class&#39;</span> : <span class="st">&#39;col-md-12 table-striped nein-scroll table-bordered&#39;</span> })</span>
+<span id="cb5-16"><a href="#cb5-16" aria-hidden="true" tabindex="-1"></a>htmltable5 <span class="op">=</span> soup5.find(<span class="st">&#39;table&#39;</span>, { <span class="st">&#39;class&#39;</span> : <span class="st">&#39;table-striped nein-scroll table-bordered col-md-12&#39;</span> })</span>
+<span id="cb5-17"><a href="#cb5-17" aria-hidden="true" tabindex="-1"></a>htmltable6 <span class="op">=</span> soup6.find(<span class="st">&#39;table&#39;</span>, { <span class="st">&#39;class&#39;</span> : <span class="st">&#39;table table-bordered table-striped&#39;</span> })</span>
+<span id="cb5-18"><a href="#cb5-18" aria-hidden="true" tabindex="-1"></a>htmltable7 <span class="op">=</span> soup7.find(<span class="st">&#39;table&#39;</span>, { <span class="st">&#39;class&#39;</span> : <span class="st">&#39;table table-bordered table-striped&#39;</span> })</span>
+<span id="cb5-19"><a href="#cb5-19" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb5-20"><a href="#cb5-20" aria-hidden="true" tabindex="-1"></a><span class="co"># Turns the htmltables into dataframes, which are 2d arrays with labels, allowing us to easily search for and modify our data</span></span>
+<span id="cb5-21"><a href="#cb5-21" aria-hidden="true" tabindex="-1"></a>frame <span class="op">=</span> pd.read_html(<span class="bu">str</span>(htmltable))[<span class="dv">0</span>]</span>
+<span id="cb5-22"><a href="#cb5-22" aria-hidden="true" tabindex="-1"></a>frame2 <span class="op">=</span> pd.read_html(<span class="bu">str</span>(htmltable2))[<span class="dv">0</span>]</span>
+<span id="cb5-23"><a href="#cb5-23" aria-hidden="true" tabindex="-1"></a>frame3 <span class="op">=</span> pd.read_html(<span class="bu">str</span>(htmltable3))[<span class="dv">0</span>]</span>
+<span id="cb5-24"><a href="#cb5-24" aria-hidden="true" tabindex="-1"></a>frame4 <span class="op">=</span> pd.read_html(<span class="bu">str</span>(htmltable4))[<span class="dv">0</span>]</span>
+<span id="cb5-25"><a href="#cb5-25" aria-hidden="true" tabindex="-1"></a>frame5 <span class="op">=</span> pd.read_html(<span class="bu">str</span>(htmltable5))[<span class="dv">0</span>]</span>
+<span id="cb5-26"><a href="#cb5-26" aria-hidden="true" tabindex="-1"></a>frame6 <span class="op">=</span> pd.read_html(<span class="bu">str</span>(htmltable6))[<span class="dv">0</span>]</span>
+<span id="cb5-27"><a href="#cb5-27" aria-hidden="true" tabindex="-1"></a>frame7 <span class="op">=</span> pd.read_html(<span class="bu">str</span>(htmltable7))[<span class="dv">0</span>]</span>
+<span id="cb5-28"><a href="#cb5-28" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb5-29"><a href="#cb5-29" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb5-30"><a href="#cb5-30" aria-hidden="true" tabindex="-1"></a><span class="co"># Trims off the standard deviation from the Percent W/ Current Asthma and then converts the percentage string into a float</span></span>
+<span id="cb5-31"><a href="#cb5-31" aria-hidden="true" tabindex="-1"></a><span class="cf">for</span> index <span class="kw">in</span> <span class="bu">range</span>(frame[<span class="st">&#39;Percent With Current Asthma (SE)&#39;</span>].size):</span>
+<span id="cb5-32"><a href="#cb5-32" aria-hidden="true" tabindex="-1"></a>    curr_str <span class="op">=</span> re.search(<span class="vs">r&#39;\d+\.\d+&#39;</span>, frame[<span class="st">&#39;Percent With Current Asthma (SE)&#39;</span>][index]).group()</span>
+<span id="cb5-33"><a href="#cb5-33" aria-hidden="true" tabindex="-1"></a>    curr <span class="op">=</span> <span class="bu">float</span>(curr_str)</span>
+<span id="cb5-34"><a href="#cb5-34" aria-hidden="true" tabindex="-1"></a>    frame.at[index, <span class="st">&#39;Percent With Current Asthma (SE)&#39;</span>] <span class="op">=</span> curr</span>
+<span id="cb5-35"><a href="#cb5-35" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb5-36"><a href="#cb5-36" aria-hidden="true" tabindex="-1"></a><span class="cf">for</span> index <span class="kw">in</span> <span class="bu">range</span>(frame2[<span class="st">&#39;Percent with Current Asthma (SE)&#39;</span>].size):</span>
+<span id="cb5-37"><a href="#cb5-37" aria-hidden="true" tabindex="-1"></a>    <span class="co">#Index 30 in this df has a value of --, which won&#39;t match the regex and shouldn&#39;t be used</span></span>
+<span id="cb5-38"><a href="#cb5-38" aria-hidden="true" tabindex="-1"></a>    <span class="cf">if</span> index <span class="op">!=</span> <span class="dv">30</span>: </span>
+<span id="cb5-39"><a href="#cb5-39" aria-hidden="true" tabindex="-1"></a>        curr_str <span class="op">=</span> re.search(<span class="vs">r&#39;\d+\.\d+&#39;</span>, frame2[<span class="st">&#39;Percent with Current Asthma (SE)&#39;</span>][index]).group()</span>
+<span id="cb5-40"><a href="#cb5-40" aria-hidden="true" tabindex="-1"></a>        curr <span class="op">=</span> <span class="bu">float</span>(curr_str)</span>
+<span id="cb5-41"><a href="#cb5-41" aria-hidden="true" tabindex="-1"></a>        frame2.at[index, <span class="st">&#39;Percent with Current Asthma (SE)&#39;</span>] <span class="op">=</span> curr</span>
+<span id="cb5-42"><a href="#cb5-42" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb5-43"><a href="#cb5-43" aria-hidden="true" tabindex="-1"></a><span class="cf">for</span> index <span class="kw">in</span> <span class="bu">range</span>(frame3[<span class="st">&#39;Percent with Current Asthma (SE)&#39;</span>].size):</span>
+<span id="cb5-44"><a href="#cb5-44" aria-hidden="true" tabindex="-1"></a>    curr_str <span class="op">=</span> re.search(<span class="vs">r&#39;\d+\.\d+&#39;</span>, frame3[<span class="st">&#39;Percent with Current Asthma (SE)&#39;</span>][index]).group()</span>
+<span id="cb5-45"><a href="#cb5-45" aria-hidden="true" tabindex="-1"></a>    curr <span class="op">=</span> <span class="bu">float</span>(curr_str)</span>
+<span id="cb5-46"><a href="#cb5-46" aria-hidden="true" tabindex="-1"></a>    frame3.at[index, <span class="st">&#39;Percent with Current Asthma (SE)&#39;</span>] <span class="op">=</span> curr</span>
+<span id="cb5-47"><a href="#cb5-47" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb5-48"><a href="#cb5-48" aria-hidden="true" tabindex="-1"></a><span class="co">#Renames all of the columns of the dataframes to match one another</span></span>
+<span id="cb5-49"><a href="#cb5-49" aria-hidden="true" tabindex="-1"></a>frame <span class="op">=</span> frame.set_axis([<span class="st">&#39;State or Territory&#39;</span>, <span class="st">&#39;Number with Current Asthma&#39;</span>, <span class="st">&#39;Percent with Current Asthma&#39;</span>], axis<span class="op">=</span><span class="dv">1</span>)</span>
+<span id="cb5-50"><a href="#cb5-50" aria-hidden="true" tabindex="-1"></a>frame[<span class="st">&#39;Year&#39;</span>] <span class="op">=</span> <span class="dv">2020</span></span>
+<span id="cb5-51"><a href="#cb5-51" aria-hidden="true" tabindex="-1"></a><span class="co">#Sets that outlier variable talked about earlier to NaN</span></span>
+<span id="cb5-52"><a href="#cb5-52" aria-hidden="true" tabindex="-1"></a>frame2.at[<span class="dv">30</span>, <span class="st">&#39;Percent with Current Asthma (SE)&#39;</span>] <span class="op">=</span> np.NaN</span>
+<span id="cb5-53"><a href="#cb5-53" aria-hidden="true" tabindex="-1"></a>frame2 <span class="op">=</span> frame2.set_axis([<span class="st">&#39;State or Territory&#39;</span>, <span class="st">&#39;Number with Current Asthma&#39;</span>, <span class="st">&#39;Percent with Current Asthma&#39;</span>], axis<span class="op">=</span><span class="dv">1</span>)</span>
+<span id="cb5-54"><a href="#cb5-54" aria-hidden="true" tabindex="-1"></a>frame2[<span class="st">&#39;Year&#39;</span>] <span class="op">=</span> <span class="dv">2019</span></span>
+<span id="cb5-55"><a href="#cb5-55" aria-hidden="true" tabindex="-1"></a>frame3 <span class="op">=</span> frame3.set_axis([<span class="st">&#39;State or Territory&#39;</span>, <span class="st">&#39;Number with Current Asthma&#39;</span>, <span class="st">&#39;Percent with Current Asthma&#39;</span>], axis<span class="op">=</span><span class="dv">1</span>)</span>
+<span id="cb5-56"><a href="#cb5-56" aria-hidden="true" tabindex="-1"></a>frame3[<span class="st">&#39;Year&#39;</span>] <span class="op">=</span> <span class="dv">2018</span></span>
+<span id="cb5-57"><a href="#cb5-57" aria-hidden="true" tabindex="-1"></a>frame4 <span class="op">=</span> frame4.set_axis([<span class="st">&#39;State or Territory&#39;</span>, <span class="st">&#39;Number with Current Asthma&#39;</span>, <span class="st">&#39;Percent with Current Asthma&#39;</span>], axis<span class="op">=</span><span class="dv">1</span>)</span>
+<span id="cb5-58"><a href="#cb5-58" aria-hidden="true" tabindex="-1"></a>frame4[<span class="st">&#39;Year&#39;</span>] <span class="op">=</span> <span class="dv">2017</span></span>
+<span id="cb5-59"><a href="#cb5-59" aria-hidden="true" tabindex="-1"></a>frame5 <span class="op">=</span> frame5.set_axis([<span class="st">&#39;State or Territory&#39;</span>, <span class="st">&#39;Number with Current Asthma&#39;</span>, <span class="st">&#39;Percent with Current Asthma&#39;</span>], axis<span class="op">=</span><span class="dv">1</span>)</span>
+<span id="cb5-60"><a href="#cb5-60" aria-hidden="true" tabindex="-1"></a>frame5[<span class="st">&#39;Year&#39;</span>] <span class="op">=</span> <span class="dv">2016</span></span>
+<span id="cb5-61"><a href="#cb5-61" aria-hidden="true" tabindex="-1"></a>frame6 <span class="op">=</span> frame6.set_axis([<span class="st">&#39;State or Territory&#39;</span>, <span class="st">&#39;Number with Current Asthma&#39;</span>, <span class="st">&#39;Percent with Current Asthma&#39;</span>], axis<span class="op">=</span><span class="dv">1</span>)</span>
+<span id="cb5-62"><a href="#cb5-62" aria-hidden="true" tabindex="-1"></a>frame6[<span class="st">&#39;Year&#39;</span>] <span class="op">=</span> <span class="dv">2015</span></span>
+<span id="cb5-63"><a href="#cb5-63" aria-hidden="true" tabindex="-1"></a>frame7 <span class="op">=</span> frame7.set_axis([<span class="st">&#39;State or Territory&#39;</span>, <span class="st">&#39;Number with Current Asthma&#39;</span>, <span class="st">&#39;Percent with Current Asthma&#39;</span>], axis<span class="op">=</span><span class="dv">1</span>)</span>
+<span id="cb5-64"><a href="#cb5-64" aria-hidden="true" tabindex="-1"></a>frame7[<span class="st">&#39;Year&#39;</span>] <span class="op">=</span> <span class="dv">2014</span></span>
+<span id="cb5-65"><a href="#cb5-65" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb5-66"><a href="#cb5-66" aria-hidden="true" tabindex="-1"></a><span class="co">#Combines all of the dataframes into one</span></span>
+<span id="cb5-67"><a href="#cb5-67" aria-hidden="true" tabindex="-1"></a>frames <span class="op">=</span> [frame, frame2, frame3, frame4, frame5, frame6, frame7]</span>
+<span id="cb5-68"><a href="#cb5-68" aria-hidden="true" tabindex="-1"></a>combined_asthma <span class="op">=</span> pd.concat(frames)</span>
+<span id="cb5-69"><a href="#cb5-69" aria-hidden="true" tabindex="-1"></a>frame2.head()</span></code></pre></div>
+<div class="output execute_result" data-execution_count="429">
+
+  <div id="df-69c01581-51b6-4e8c-a72c-771b1aea9287">
+    <div class="colab-df-container">
+      <div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>State or Territory</th>
+      <th>Number with Current Asthma</th>
+      <th>Percent with Current Asthma</th>
+      <th>Year</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>Alabama</td>
+      <td>360965</td>
+      <td>9.5</td>
+      <td>2019</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>Alaska</td>
+      <td>54239</td>
+      <td>9.9</td>
+      <td>2019</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>Arizona</td>
+      <td>544394</td>
+      <td>9.7</td>
+      <td>2019</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>Arkansas</td>
+      <td>215095</td>
+      <td>9.3</td>
+      <td>2019</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>California</td>
+      <td>2405797</td>
+      <td>7.8</td>
+      <td>2019</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+      <button class="colab-df-convert" onclick="convertToInteractive('df-69c01581-51b6-4e8c-a72c-771b1aea9287')"
+              title="Convert this dataframe to an interactive table."
+              style="display:none;">
+        
+  <svg xmlns="http://www.w3.org/2000/svg" height="24px"viewBox="0 0 24 24"
+       width="24px">
+    <path d="M0 0h24v24H0V0z" fill="none"/>
+    <path d="M18.56 5.44l.94 2.06.94-2.06 2.06-.94-2.06-.94-.94-2.06-.94 2.06-2.06.94zm-11 1L8.5 8.5l.94-2.06 2.06-.94-2.06-.94L8.5 2.5l-.94 2.06-2.06.94zm10 10l.94 2.06.94-2.06 2.06-.94-2.06-.94-.94-2.06-.94 2.06-2.06.94z"/><path d="M17.41 7.96l-1.37-1.37c-.4-.4-.92-.59-1.43-.59-.52 0-1.04.2-1.43.59L10.3 9.45l-7.72 7.72c-.78.78-.78 2.05 0 2.83L4 21.41c.39.39.9.59 1.41.59.51 0 1.02-.2 1.41-.59l7.78-7.78 2.81-2.81c.8-.78.8-2.07 0-2.86zM5.41 20L4 18.59l7.72-7.72 1.47 1.35L5.41 20z"/>
+  </svg>
+      </button>
+      
+  <style>
+    .colab-df-container {
+      display:flex;
+      flex-wrap:wrap;
+      gap: 12px;
+    }
+
+    .colab-df-convert {
+      background-color: #E8F0FE;
+      border: none;
+      border-radius: 50%;
+      cursor: pointer;
+      display: none;
+      fill: #1967D2;
+      height: 32px;
+      padding: 0 0 0 0;
+      width: 32px;
+    }
+
+    .colab-df-convert:hover {
+      background-color: #E2EBFA;
+      box-shadow: 0px 1px 2px rgba(60, 64, 67, 0.3), 0px 1px 3px 1px rgba(60, 64, 67, 0.15);
+      fill: #174EA6;
+    }
+
+    [theme=dark] .colab-df-convert {
+      background-color: #3B4455;
+      fill: #D2E3FC;
+    }
+
+    [theme=dark] .colab-df-convert:hover {
+      background-color: #434B5C;
+      box-shadow: 0px 1px 3px 1px rgba(0, 0, 0, 0.15);
+      filter: drop-shadow(0px 1px 2px rgba(0, 0, 0, 0.3));
+      fill: #FFFFFF;
+    }
+  </style>
+
+      <script>
+        const buttonEl =
+          document.querySelector('#df-69c01581-51b6-4e8c-a72c-771b1aea9287 button.colab-df-convert');
+        buttonEl.style.display =
+          google.colab.kernel.accessAllowed ? 'block' : 'none';
+
+        async function convertToInteractive(key) {
+          const element = document.querySelector('#df-69c01581-51b6-4e8c-a72c-771b1aea9287');
+          const dataTable =
+            await google.colab.kernel.invokeFunction('convertToInteractive',
+                                                     [key], {});
+          if (!dataTable) return;
+
+          const docLinkHtml = 'Like what you see? Visit the ' +
+            '<a target="_blank" href=https://colab.research.google.com/notebooks/data_table.ipynb>data table notebook</a>'
+            + ' to learn more about interactive tables.';
+          element.innerHTML = '';
+          dataTable['output_type'] = 'display_data';
+          await google.colab.output.renderOutput(dataTable, element);
+          const docLink = document.createElement('div');
+          docLink.innerHTML = docLinkHtml;
+          element.appendChild(docLink);
+        }
+      </script>
+    </div>
+  </div>
+  
+</div>
+</div>
+<div id="yZVwhUp0aWeb" class="cell code"
+data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;,&quot;height&quot;:489}"
+id="yZVwhUp0aWeb" data-outputId="19032880-7d68-4541-fd8b-4aeb1b495958">
+<div class="sourceCode" id="cb6"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb6-1"><a href="#cb6-1" aria-hidden="true" tabindex="-1"></a><span class="co">#Graphs the aggregate asthma rate per year as a line graph from 2014-2020</span></span>
+<span id="cb6-2"><a href="#cb6-2" aria-hidden="true" tabindex="-1"></a><span class="co">#The light blue shaded area is the 95% confidence interval for each year</span></span>
+<span id="cb6-3"><a href="#cb6-3" aria-hidden="true" tabindex="-1"></a><span class="co">#Because the data was combined using concat on multiple dataframes, there are many duplicate indexed rows,</span></span>
+<span id="cb6-4"><a href="#cb6-4" aria-hidden="true" tabindex="-1"></a><span class="co">#as concat does not change any indexes, so to graph or grab rows by index we have to reindex the dataframe</span></span>
+<span id="cb6-5"><a href="#cb6-5" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb6-6"><a href="#cb6-6" aria-hidden="true" tabindex="-1"></a>combined_asthma <span class="op">=</span> combined_asthma.reset_index()</span>
+<span id="cb6-7"><a href="#cb6-7" aria-hidden="true" tabindex="-1"></a>seaborn.lineplot(data<span class="op">=</span>combined_asthma, y<span class="op">=</span><span class="st">&quot;Percent with Current Asthma&quot;</span>, x<span class="op">=</span><span class="st">&quot;Year&quot;</span>)</span>
+<span id="cb6-8"><a href="#cb6-8" aria-hidden="true" tabindex="-1"></a>plt.title(<span class="st">&quot;Percent of People with Asthma vs Year&quot;</span>)</span>
+<span id="cb6-9"><a href="#cb6-9" aria-hidden="true" tabindex="-1"></a><span class="co">#Asthma has increased by almost half a percent of the population in the past 7 years</span></span></code></pre></div>
+<div class="output execute_result" data-execution_count="430">
+<pre><code>Text(0.5, 1.0, &#39;Percent of People with Asthma vs Year&#39;)</code></pre>
+</div>
+<div class="output display_data">
+<p><img
+src="vertopal_cb9835cceed84e4fa65ab44e7af117d9/024c9881ba3debc582be6f68c1576dd16570fd2e.png" /></p>
+</div>
+</div>
+<div id="DJC1DaQ8xuZg" class="cell markdown" id="DJC1DaQ8xuZg">
+<p>#Cleaning Air Quality Index (AQI) Data This data was already
+relatively clean and tidy. All we did here was remove the rows that
+corresponded to counties not in the state of California.</p>
+</div>
+<div id="QMFGVnSXxNws" class="cell code"
+data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;,&quot;height&quot;:206}"
+id="QMFGVnSXxNws" data-outputId="568d0b23-8158-4347-b0d0-4b4219688900">
+<div class="sourceCode" id="cb8"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb8-1"><a href="#cb8-1" aria-hidden="true" tabindex="-1"></a><span class="co">#Questions, given air quality by year, and asthma hospitalizations by year.</span></span>
+<span id="cb8-2"><a href="#cb8-2" aria-hidden="true" tabindex="-1"></a><span class="co">#Given a four year interval, the total number of hospitalizations versus the average air quality of those four years, for each county</span></span>
+<span id="cb8-3"><a href="#cb8-3" aria-hidden="true" tabindex="-1"></a><span class="co">#Statistical analysis on that </span></span>
+<span id="cb8-4"><a href="#cb8-4" aria-hidden="true" tabindex="-1"></a><span class="co">#aqi_df = df = pd.read_csv(&#39;annual_aqi_by_county_2015-2019.csv&#39;)</span></span>
+<span id="cb8-5"><a href="#cb8-5" aria-hidden="true" tabindex="-1"></a>aqi_df <span class="op">=</span> pd.read_csv(<span class="st">&#39;https://raw.githubusercontent.com/ThomasJohnson35/CMSC320-datasets/main/annual_aqi_by_county_2015-2019.csv&#39;</span>)</span>
+<span id="cb8-6"><a href="#cb8-6" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb8-7"><a href="#cb8-7" aria-hidden="true" tabindex="-1"></a><span class="co">#Drop all non California rows, reindex</span></span>
+<span id="cb8-8"><a href="#cb8-8" aria-hidden="true" tabindex="-1"></a>california_aqi_df <span class="op">=</span> aqi_df[aqi_df[<span class="st">&#39;State&#39;</span>] <span class="op">==</span> <span class="st">&#39;California&#39;</span>]</span>
+<span id="cb8-9"><a href="#cb8-9" aria-hidden="true" tabindex="-1"></a>california_aqi_df.reset_index(drop<span class="op">=</span><span class="va">True</span>,inplace<span class="op">=</span><span class="va">True</span>)</span>
+<span id="cb8-10"><a href="#cb8-10" aria-hidden="true" tabindex="-1"></a>california_aqi_df.head()</span></code></pre></div>
+<div class="output execute_result" data-execution_count="431">
+
+  <div id="df-a499f8e3-c1f5-4659-b51c-463cd25e8ab9">
+    <div class="colab-df-container">
+      <div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>State</th>
+      <th>County</th>
+      <th>Year</th>
+      <th>Days with AQI</th>
+      <th>Good Days</th>
+      <th>Moderate Days</th>
+      <th>Unhealthy for Sensitive Groups Days</th>
+      <th>Unhealthy Days</th>
+      <th>Very Unhealthy Days</th>
+      <th>Hazardous Days</th>
+      <th>Max AQI</th>
+      <th>90th Percentile AQI</th>
+      <th>Median AQI</th>
+      <th>Days CO</th>
+      <th>Days NO2</th>
+      <th>Days Ozone</th>
+      <th>Days PM2.5</th>
+      <th>Days PM10</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>California</td>
+      <td>Alameda</td>
+      <td>2015</td>
+      <td>365</td>
+      <td>214</td>
+      <td>139</td>
+      <td>12</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>147</td>
+      <td>76</td>
+      <td>46</td>
+      <td>0</td>
+      <td>15</td>
+      <td>180</td>
+      <td>170</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>California</td>
+      <td>Alpine</td>
+      <td>2015</td>
+      <td>31</td>
+      <td>1</td>
+      <td>14</td>
+      <td>13</td>
+      <td>3</td>
+      <td>0</td>
+      <td>0</td>
+      <td>170</td>
+      <td>149</td>
+      <td>102</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>31</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>California</td>
+      <td>Amador</td>
+      <td>2015</td>
+      <td>364</td>
+      <td>283</td>
+      <td>73</td>
+      <td>8</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>140</td>
+      <td>67</td>
+      <td>41</td>
+      <td>0</td>
+      <td>0</td>
+      <td>364</td>
+      <td>0</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>California</td>
+      <td>Butte</td>
+      <td>2015</td>
+      <td>365</td>
+      <td>170</td>
+      <td>182</td>
+      <td>12</td>
+      <td>1</td>
+      <td>0</td>
+      <td>0</td>
+      <td>152</td>
+      <td>84</td>
+      <td>52</td>
+      <td>0</td>
+      <td>0</td>
+      <td>237</td>
+      <td>127</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>California</td>
+      <td>Calaveras</td>
+      <td>2015</td>
+      <td>365</td>
+      <td>245</td>
+      <td>98</td>
+      <td>18</td>
+      <td>2</td>
+      <td>1</td>
+      <td>1</td>
+      <td>320</td>
+      <td>90</td>
+      <td>45</td>
+      <td>0</td>
+      <td>0</td>
+      <td>274</td>
+      <td>91</td>
+      <td>0</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+      <button class="colab-df-convert" onclick="convertToInteractive('df-a499f8e3-c1f5-4659-b51c-463cd25e8ab9')"
+              title="Convert this dataframe to an interactive table."
+              style="display:none;">
+        
+  <svg xmlns="http://www.w3.org/2000/svg" height="24px"viewBox="0 0 24 24"
+       width="24px">
+    <path d="M0 0h24v24H0V0z" fill="none"/>
+    <path d="M18.56 5.44l.94 2.06.94-2.06 2.06-.94-2.06-.94-.94-2.06-.94 2.06-2.06.94zm-11 1L8.5 8.5l.94-2.06 2.06-.94-2.06-.94L8.5 2.5l-.94 2.06-2.06.94zm10 10l.94 2.06.94-2.06 2.06-.94-2.06-.94-.94-2.06-.94 2.06-2.06.94z"/><path d="M17.41 7.96l-1.37-1.37c-.4-.4-.92-.59-1.43-.59-.52 0-1.04.2-1.43.59L10.3 9.45l-7.72 7.72c-.78.78-.78 2.05 0 2.83L4 21.41c.39.39.9.59 1.41.59.51 0 1.02-.2 1.41-.59l7.78-7.78 2.81-2.81c.8-.78.8-2.07 0-2.86zM5.41 20L4 18.59l7.72-7.72 1.47 1.35L5.41 20z"/>
+  </svg>
+      </button>
+      
+  <style>
+    .colab-df-container {
+      display:flex;
+      flex-wrap:wrap;
+      gap: 12px;
+    }
+
+    .colab-df-convert {
+      background-color: #E8F0FE;
+      border: none;
+      border-radius: 50%;
+      cursor: pointer;
+      display: none;
+      fill: #1967D2;
+      height: 32px;
+      padding: 0 0 0 0;
+      width: 32px;
+    }
+
+    .colab-df-convert:hover {
+      background-color: #E2EBFA;
+      box-shadow: 0px 1px 2px rgba(60, 64, 67, 0.3), 0px 1px 3px 1px rgba(60, 64, 67, 0.15);
+      fill: #174EA6;
+    }
+
+    [theme=dark] .colab-df-convert {
+      background-color: #3B4455;
+      fill: #D2E3FC;
+    }
+
+    [theme=dark] .colab-df-convert:hover {
+      background-color: #434B5C;
+      box-shadow: 0px 1px 3px 1px rgba(0, 0, 0, 0.15);
+      filter: drop-shadow(0px 1px 2px rgba(0, 0, 0, 0.3));
+      fill: #FFFFFF;
+    }
+  </style>
+
+      <script>
+        const buttonEl =
+          document.querySelector('#df-a499f8e3-c1f5-4659-b51c-463cd25e8ab9 button.colab-df-convert');
+        buttonEl.style.display =
+          google.colab.kernel.accessAllowed ? 'block' : 'none';
+
+        async function convertToInteractive(key) {
+          const element = document.querySelector('#df-a499f8e3-c1f5-4659-b51c-463cd25e8ab9');
+          const dataTable =
+            await google.colab.kernel.invokeFunction('convertToInteractive',
+                                                     [key], {});
+          if (!dataTable) return;
+
+          const docLinkHtml = 'Like what you see? Visit the ' +
+            '<a target="_blank" href=https://colab.research.google.com/notebooks/data_table.ipynb>data table notebook</a>'
+            + ' to learn more about interactive tables.';
+          element.innerHTML = '';
+          dataTable['output_type'] = 'display_data';
+          await google.colab.output.renderOutput(dataTable, element);
+          const docLink = document.createElement('div');
+          docLink.innerHTML = docLinkHtml;
+          element.appendChild(docLink);
+        }
+      </script>
+    </div>
+  </div>
+  
+</div>
+</div>
+<div id="3ZUmH9sq1Tzc" class="cell markdown" id="3ZUmH9sq1Tzc">
+<h1 id="cleaning-asthma-hospitalizations-data">Cleaning Asthma
+Hospitalizations Data</h1>
+<p>In this step, after importing the dataset, we kept only the rows that
+included metrics for the total population since our analysis did not
+cover certain demographic factors. We kept and renamed only the relevant
+columns, since there were other more in-depth measurements of air
+quality that we did not need.</p>
+</div>
+<div id="ed1a3bcc-64ed-4fe3-ac5f-01513e91ae09" class="cell code"
+id="ed1a3bcc-64ed-4fe3-ac5f-01513e91ae09">
+<div class="sourceCode" id="cb9"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb9-1"><a href="#cb9-1" aria-hidden="true" tabindex="-1"></a><span class="co">#Creating a pandas dataframe from a CSV file (californian asthma hospitalizations by county from data.gov)</span></span>
+<span id="cb9-2"><a href="#cb9-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb9-3"><a href="#cb9-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb9-4"><a href="#cb9-4" aria-hidden="true" tabindex="-1"></a>asthma_df <span class="op">=</span> pd.read_csv(</span>
+<span id="cb9-5"><a href="#cb9-5" aria-hidden="true" tabindex="-1"></a>    <span class="co">#&quot;asthma_by_county.csv&quot;</span></span>
+<span id="cb9-6"><a href="#cb9-6" aria-hidden="true" tabindex="-1"></a>    <span class="st">&#39;https://raw.githubusercontent.com/ThomasJohnson35/CMSC320-datasets/main/asthma-hospitalization-rates-by-county-2015_2019.csv&#39;</span></span>
+<span id="cb9-7"><a href="#cb9-7" aria-hidden="true" tabindex="-1"></a>    ,encoding<span class="op">=</span><span class="st">&#39;cp1252&#39;</span>,thousands<span class="op">=</span><span class="st">&#39;,&#39;</span>)</span>
+<span id="cb9-8"><a href="#cb9-8" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb9-9"><a href="#cb9-9" aria-hidden="true" tabindex="-1"></a><span class="co"># Combine Asthma dataframe -- want only rows with same county/year combo, and one to one with total population and all ages</span></span>
+<span id="cb9-10"><a href="#cb9-10" aria-hidden="true" tabindex="-1"></a>filtered_asthma_df <span class="op">=</span> asthma_df[asthma_df[<span class="st">&#39;STRATA&#39;</span>] <span class="op">==</span> <span class="st">&#39;Total population&#39;</span>]</span>
+<span id="cb9-11"><a href="#cb9-11" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb9-12"><a href="#cb9-12" aria-hidden="true" tabindex="-1"></a><span class="co">#Drop unnecessary collumns</span></span>
+<span id="cb9-13"><a href="#cb9-13" aria-hidden="true" tabindex="-1"></a>filtered_asthma_df <span class="op">=</span> filtered_asthma_df[[<span class="st">&#39;COUNTY&#39;</span>, <span class="st">&#39;YEAR&#39;</span>, <span class="st">&#39;NUMBER OF HOSPITALIZATIONS&#39;</span>, <span class="st">&#39;AGE-ADJUSTED HOSPITALIZATION RATE&#39;</span>]]</span>
+<span id="cb9-14"><a href="#cb9-14" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb9-15"><a href="#cb9-15" aria-hidden="true" tabindex="-1"></a><span class="co">#For now using total populations, re-indexing</span></span>
+<span id="cb9-16"><a href="#cb9-16" aria-hidden="true" tabindex="-1"></a>filtered_asthma_df.reset_index(drop<span class="op">=</span><span class="va">True</span>,inplace<span class="op">=</span><span class="va">True</span>)</span>
+<span id="cb9-17"><a href="#cb9-17" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb9-18"><a href="#cb9-18" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb9-19"><a href="#cb9-19" aria-hidden="true" tabindex="-1"></a>filtered_asthma_df <span class="op">=</span> filtered_asthma_df.rename(columns<span class="op">=</span>{<span class="st">&#39;COUNTY&#39;</span>: <span class="st">&#39;County&#39;</span>,</span>
+<span id="cb9-20"><a href="#cb9-20" aria-hidden="true" tabindex="-1"></a>                          <span class="st">&#39;YEAR&#39;</span>: <span class="st">&#39;Year&#39;</span>,</span>
+<span id="cb9-21"><a href="#cb9-21" aria-hidden="true" tabindex="-1"></a>                          <span class="st">&#39;STRATA&#39;</span>: <span class="st">&#39;Strata&#39;</span>,</span>
+<span id="cb9-22"><a href="#cb9-22" aria-hidden="true" tabindex="-1"></a>                          <span class="st">&#39;STRATA NAME&#39;</span>: <span class="st">&#39;Strata_name&#39;</span>,</span>
+<span id="cb9-23"><a href="#cb9-23" aria-hidden="true" tabindex="-1"></a>                          <span class="st">&#39;AGE GROUP&#39;</span>: <span class="st">&#39;Age_group&#39;</span>,</span>
+<span id="cb9-24"><a href="#cb9-24" aria-hidden="true" tabindex="-1"></a>                          <span class="st">&#39;NUMBER OF HOSPITALIZATIONS&#39;</span>: <span class="st">&#39;Num_hosp&#39;</span>,</span>
+<span id="cb9-25"><a href="#cb9-25" aria-hidden="true" tabindex="-1"></a>                          <span class="st">&#39;AGE-ADJUSTED HOSPITALIZATION RATE&#39;</span>: <span class="st">&#39;Adj_hosp_rate&#39;</span>,</span>
+<span id="cb9-26"><a href="#cb9-26" aria-hidden="true" tabindex="-1"></a>                          <span class="st">&#39;COMMENT&#39;</span>: <span class="st">&#39;Comment&#39;</span>})</span></code></pre></div>
+</div>
+<div id="Y6oMzT_tzFAv" class="cell markdown" id="Y6oMzT_tzFAv">
+<h1 id="merging-aqi-and-asthma-data">Merging AQI and Asthma Data</h1>
+<p>After importing and doing some intial cleaning of our main datasets,
+we performed an inner join of the data on the year and county columns.
+This effectively created one dataset with the necessary columns from
+each source for every county and year combination. We used an inner join
+because we wanted entries that only had year and county combinations in
+both datasets.</p>
+</div>
+<div id="7d16b601-b7dd-41c8-8581-f3e66b0abedf" class="cell code"
+data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;,&quot;height&quot;:206}"
+id="7d16b601-b7dd-41c8-8581-f3e66b0abedf"
+data-outputId="5d1177a9-20b5-4524-ae24-e7a17ede446b">
+<div class="sourceCode" id="cb10"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb10-1"><a href="#cb10-1" aria-hidden="true" tabindex="-1"></a>merged_df <span class="op">=</span> pd.merge(filtered_asthma_df,california_aqi_df, on<span class="op">=</span>[<span class="st">&#39;Year&#39;</span>,<span class="st">&#39;County&#39;</span>])</span>
+<span id="cb10-2"><a href="#cb10-2" aria-hidden="true" tabindex="-1"></a>merged_df.head()</span></code></pre></div>
+<div class="output execute_result" data-execution_count="433">
+
+  <div id="df-98fe74c0-38c2-4026-897f-76f1c566634c">
+    <div class="colab-df-container">
+      <div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>County</th>
+      <th>Year</th>
+      <th>Num_hosp</th>
+      <th>Adj_hosp_rate</th>
+      <th>State</th>
+      <th>Days with AQI</th>
+      <th>Good Days</th>
+      <th>Moderate Days</th>
+      <th>Unhealthy for Sensitive Groups Days</th>
+      <th>Unhealthy Days</th>
+      <th>Very Unhealthy Days</th>
+      <th>Hazardous Days</th>
+      <th>Max AQI</th>
+      <th>90th Percentile AQI</th>
+      <th>Median AQI</th>
+      <th>Days CO</th>
+      <th>Days NO2</th>
+      <th>Days Ozone</th>
+      <th>Days PM2.5</th>
+      <th>Days PM10</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>Alameda</td>
+      <td>2015</td>
+      <td>1435.0</td>
+      <td>9.3</td>
+      <td>California</td>
+      <td>365</td>
+      <td>214</td>
+      <td>139</td>
+      <td>12</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>147</td>
+      <td>76</td>
+      <td>46</td>
+      <td>0</td>
+      <td>15</td>
+      <td>180</td>
+      <td>170</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>Alpine</td>
+      <td>2015</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>California</td>
+      <td>31</td>
+      <td>1</td>
+      <td>14</td>
+      <td>13</td>
+      <td>3</td>
+      <td>0</td>
+      <td>0</td>
+      <td>170</td>
+      <td>149</td>
+      <td>102</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>31</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>Amador</td>
+      <td>2015</td>
+      <td>28.0</td>
+      <td>7.5</td>
+      <td>California</td>
+      <td>364</td>
+      <td>283</td>
+      <td>73</td>
+      <td>8</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>140</td>
+      <td>67</td>
+      <td>41</td>
+      <td>0</td>
+      <td>0</td>
+      <td>364</td>
+      <td>0</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>Butte</td>
+      <td>2015</td>
+      <td>143.0</td>
+      <td>6.7</td>
+      <td>California</td>
+      <td>365</td>
+      <td>170</td>
+      <td>182</td>
+      <td>12</td>
+      <td>1</td>
+      <td>0</td>
+      <td>0</td>
+      <td>152</td>
+      <td>84</td>
+      <td>52</td>
+      <td>0</td>
+      <td>0</td>
+      <td>237</td>
+      <td>127</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>Calaveras</td>
+      <td>2015</td>
+      <td>32.0</td>
+      <td>6.5</td>
+      <td>California</td>
+      <td>365</td>
+      <td>245</td>
+      <td>98</td>
+      <td>18</td>
+      <td>2</td>
+      <td>1</td>
+      <td>1</td>
+      <td>320</td>
+      <td>90</td>
+      <td>45</td>
+      <td>0</td>
+      <td>0</td>
+      <td>274</td>
+      <td>91</td>
+      <td>0</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+      <button class="colab-df-convert" onclick="convertToInteractive('df-98fe74c0-38c2-4026-897f-76f1c566634c')"
+              title="Convert this dataframe to an interactive table."
+              style="display:none;">
+        
+  <svg xmlns="http://www.w3.org/2000/svg" height="24px"viewBox="0 0 24 24"
+       width="24px">
+    <path d="M0 0h24v24H0V0z" fill="none"/>
+    <path d="M18.56 5.44l.94 2.06.94-2.06 2.06-.94-2.06-.94-.94-2.06-.94 2.06-2.06.94zm-11 1L8.5 8.5l.94-2.06 2.06-.94-2.06-.94L8.5 2.5l-.94 2.06-2.06.94zm10 10l.94 2.06.94-2.06 2.06-.94-2.06-.94-.94-2.06-.94 2.06-2.06.94z"/><path d="M17.41 7.96l-1.37-1.37c-.4-.4-.92-.59-1.43-.59-.52 0-1.04.2-1.43.59L10.3 9.45l-7.72 7.72c-.78.78-.78 2.05 0 2.83L4 21.41c.39.39.9.59 1.41.59.51 0 1.02-.2 1.41-.59l7.78-7.78 2.81-2.81c.8-.78.8-2.07 0-2.86zM5.41 20L4 18.59l7.72-7.72 1.47 1.35L5.41 20z"/>
+  </svg>
+      </button>
+      
+  <style>
+    .colab-df-container {
+      display:flex;
+      flex-wrap:wrap;
+      gap: 12px;
+    }
+
+    .colab-df-convert {
+      background-color: #E8F0FE;
+      border: none;
+      border-radius: 50%;
+      cursor: pointer;
+      display: none;
+      fill: #1967D2;
+      height: 32px;
+      padding: 0 0 0 0;
+      width: 32px;
+    }
+
+    .colab-df-convert:hover {
+      background-color: #E2EBFA;
+      box-shadow: 0px 1px 2px rgba(60, 64, 67, 0.3), 0px 1px 3px 1px rgba(60, 64, 67, 0.15);
+      fill: #174EA6;
+    }
+
+    [theme=dark] .colab-df-convert {
+      background-color: #3B4455;
+      fill: #D2E3FC;
+    }
+
+    [theme=dark] .colab-df-convert:hover {
+      background-color: #434B5C;
+      box-shadow: 0px 1px 3px 1px rgba(0, 0, 0, 0.15);
+      filter: drop-shadow(0px 1px 2px rgba(0, 0, 0, 0.3));
+      fill: #FFFFFF;
+    }
+  </style>
+
+      <script>
+        const buttonEl =
+          document.querySelector('#df-98fe74c0-38c2-4026-897f-76f1c566634c button.colab-df-convert');
+        buttonEl.style.display =
+          google.colab.kernel.accessAllowed ? 'block' : 'none';
+
+        async function convertToInteractive(key) {
+          const element = document.querySelector('#df-98fe74c0-38c2-4026-897f-76f1c566634c');
+          const dataTable =
+            await google.colab.kernel.invokeFunction('convertToInteractive',
+                                                     [key], {});
+          if (!dataTable) return;
+
+          const docLinkHtml = 'Like what you see? Visit the ' +
+            '<a target="_blank" href=https://colab.research.google.com/notebooks/data_table.ipynb>data table notebook</a>'
+            + ' to learn more about interactive tables.';
+          element.innerHTML = '';
+          dataTable['output_type'] = 'display_data';
+          await google.colab.output.renderOutput(dataTable, element);
+          const docLink = document.createElement('div');
+          docLink.innerHTML = docLinkHtml;
+          element.appendChild(docLink);
+        }
+      </script>
+    </div>
+  </div>
+  
+</div>
+</div>
+<div id="007D17QN6los" class="cell markdown" id="007D17QN6los">
+<h1 id="cleaning-population-census-data">Cleaning Population Census
+Data</h1>
+<p>After processing our asthma hospitalizations data, we realized that
+the dataset lacked a total population number for each county. This
+feature is essential because our asthma hospitalizations data was in the
+form of number of hospitalizations, so we had no way of knowing if a
+number was significant or not in relation to the county's population.
+Luckily, we found population data for our selected timeframe from the
+Census Bureau.</p>
+<h1 id="data-cleaning-steps-we-took">Data cleaning steps we took:</h1>
+<ul>
+<li>Limiting the counties to only counties in California.</li>
+<li>The dataset included 160+ columns, but we only needed the ones
+marking population estimates for each county. So we selected only the
+population estimates that were relevant.</li>
+<li>Many rows were missing data. We dropped those.</li>
+<li>We renamed columns to match our previous style.</li>
+<li>We performed a melt on the dataset that took the 5 columns holding
+population estimates for each of the 5 years, and created additional
+rows for each county and condensed the multiple population estimate
+columns into one population estimate column while creating additional
+rows for each county and year combination.</li>
+<li>We passed every entry's 'County' columns through regex to remove
+unnecessary formatting.</li>
+</ul>
+</div>
+<div id="5t2L7reJ6b5L" class="cell code"
+data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;,&quot;height&quot;:648}"
+id="5t2L7reJ6b5L" data-outputId="c6fe2453-7974-4a79-85c4-9dda122b9716">
+<div class="sourceCode" id="cb11"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb11-1"><a href="#cb11-1" aria-hidden="true" tabindex="-1"></a><span class="co"># format popualtion df by removing columns, renaming, melting</span></span>
+<span id="cb11-2"><a href="#cb11-2" aria-hidden="true" tabindex="-1"></a>pop <span class="op">=</span> pd.read_csv(</span>
+<span id="cb11-3"><a href="#cb11-3" aria-hidden="true" tabindex="-1"></a>    <span class="co">#&#39;co-est2019-alldata.csv&#39;</span></span>
+<span id="cb11-4"><a href="#cb11-4" aria-hidden="true" tabindex="-1"></a>    <span class="st">&#39;https://raw.githubusercontent.com/ThomasJohnson35/CMSC320-datasets/main/co-est2019-alldata.csv&#39;</span></span>
+<span id="cb11-5"><a href="#cb11-5" aria-hidden="true" tabindex="-1"></a>    ,encoding<span class="op">=</span><span class="st">&#39;cp1252&#39;</span>)</span>
+<span id="cb11-6"><a href="#cb11-6" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb11-7"><a href="#cb11-7" aria-hidden="true" tabindex="-1"></a>display(pop)</span>
+<span id="cb11-8"><a href="#cb11-8" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb11-9"><a href="#cb11-9" aria-hidden="true" tabindex="-1"></a><span class="co"># Grabs only rows with California as their state</span></span>
+<span id="cb11-10"><a href="#cb11-10" aria-hidden="true" tabindex="-1"></a>pop <span class="op">=</span> pop[pop[<span class="st">&#39;STNAME&#39;</span>] <span class="op">==</span> <span class="st">&#39;California&#39;</span>]</span>
+<span id="cb11-11"><a href="#cb11-11" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb11-12"><a href="#cb11-12" aria-hidden="true" tabindex="-1"></a><span class="co"># Obtains the columns we&#39;re interested in</span></span>
+<span id="cb11-13"><a href="#cb11-13" aria-hidden="true" tabindex="-1"></a>pop <span class="op">=</span> pop[[<span class="st">&#39;STNAME&#39;</span>, <span class="st">&#39;CTYNAME&#39;</span>, <span class="st">&#39;POPESTIMATE2015&#39;</span>,</span>
+<span id="cb11-14"><a href="#cb11-14" aria-hidden="true" tabindex="-1"></a>        <span class="st">&#39;POPESTIMATE2016&#39;</span>, <span class="st">&#39;POPESTIMATE2017&#39;</span>, <span class="st">&#39;POPESTIMATE2018&#39;</span>, <span class="st">&#39;POPESTIMATE2019&#39;</span> ]]</span>
+<span id="cb11-15"><a href="#cb11-15" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb11-16"><a href="#cb11-16" aria-hidden="true" tabindex="-1"></a><span class="co"># Drops rowwith missing population data</span></span>
+<span id="cb11-17"><a href="#cb11-17" aria-hidden="true" tabindex="-1"></a>pop.dropna()</span>
+<span id="cb11-18"><a href="#cb11-18" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb11-19"><a href="#cb11-19" aria-hidden="true" tabindex="-1"></a><span class="co"># Rename to fit our formatting</span></span>
+<span id="cb11-20"><a href="#cb11-20" aria-hidden="true" tabindex="-1"></a>pop <span class="op">=</span> pop.rename(columns<span class="op">=</span>{<span class="st">&#39;STNAME&#39;</span>: <span class="st">&#39;State&#39;</span>, <span class="st">&#39;CTYNAME&#39;</span>: <span class="st">&#39;County&#39;</span>})</span>
+<span id="cb11-21"><a href="#cb11-21" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb11-22"><a href="#cb11-22" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb11-23"><a href="#cb11-23" aria-hidden="true" tabindex="-1"></a>pop <span class="op">=</span> pd.melt(pop, id_vars<span class="op">=</span>[<span class="st">&#39;State&#39;</span>, <span class="st">&#39;County&#39;</span>], var_name<span class="op">=</span><span class="st">&#39;Year&#39;</span>, value_name<span class="op">=</span><span class="st">&#39;Population&#39;</span>)</span>
+<span id="cb11-24"><a href="#cb11-24" aria-hidden="true" tabindex="-1"></a>pop[<span class="st">&#39;Year&#39;</span>] <span class="op">=</span> pop[<span class="st">&#39;Year&#39;</span>].<span class="bu">str</span>.extract(<span class="vs">r&#39;(\d+)&#39;</span>, expand<span class="op">=</span><span class="va">False</span>).astype(<span class="bu">int</span>)</span>
+<span id="cb11-25"><a href="#cb11-25" aria-hidden="true" tabindex="-1"></a>pop[<span class="st">&#39;County&#39;</span>] <span class="op">=</span> pop[<span class="st">&#39;County&#39;</span>].<span class="bu">str</span>.replace(<span class="vs">r&#39;\ County$&#39;</span>, <span class="st">&#39;&#39;</span>)</span>
+<span id="cb11-26"><a href="#cb11-26" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb11-27"><a href="#cb11-27" aria-hidden="true" tabindex="-1"></a><span class="co">#pop[&#39;Year&#39;] = pop[&#39;Year&#39;].str.extract(r&#39;(\d+)&#39;, expand=False).astype(int)</span></span>
+<span id="cb11-28"><a href="#cb11-28" aria-hidden="true" tabindex="-1"></a><span class="co">#pop[&#39;County&#39;] = pop[&#39;County&#39;].str.replace(r&#39;\ County$&#39;, &#39;&#39;)</span></span>
+<span id="cb11-29"><a href="#cb11-29" aria-hidden="true" tabindex="-1"></a>pop.head()</span></code></pre></div>
+<div class="output display_data">
+
+  <div id="df-c4455aad-16fc-4791-b199-3c0bbe19d99e">
+    <div class="colab-df-container">
+      <div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>SUMLEV</th>
+      <th>REGION</th>
+      <th>DIVISION</th>
+      <th>STATE</th>
+      <th>COUNTY</th>
+      <th>STNAME</th>
+      <th>CTYNAME</th>
+      <th>CENSUS2010POP</th>
+      <th>ESTIMATESBASE2010</th>
+      <th>POPESTIMATE2010</th>
+      <th>...</th>
+      <th>RDOMESTICMIG2019</th>
+      <th>RNETMIG2011</th>
+      <th>RNETMIG2012</th>
+      <th>RNETMIG2013</th>
+      <th>RNETMIG2014</th>
+      <th>RNETMIG2015</th>
+      <th>RNETMIG2016</th>
+      <th>RNETMIG2017</th>
+      <th>RNETMIG2018</th>
+      <th>RNETMIG2019</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>40</td>
+      <td>3</td>
+      <td>6</td>
+      <td>1</td>
+      <td>0</td>
+      <td>Alabama</td>
+      <td>Alabama</td>
+      <td>4779736</td>
+      <td>4780125</td>
+      <td>4785437</td>
+      <td>...</td>
+      <td>1.917501</td>
+      <td>0.578434</td>
+      <td>1.186314</td>
+      <td>1.522549</td>
+      <td>0.563489</td>
+      <td>0.626357</td>
+      <td>0.745172</td>
+      <td>1.090366</td>
+      <td>1.773786</td>
+      <td>2.483744</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>50</td>
+      <td>3</td>
+      <td>6</td>
+      <td>1</td>
+      <td>1</td>
+      <td>Alabama</td>
+      <td>Autauga County</td>
+      <td>54571</td>
+      <td>54597</td>
+      <td>54773</td>
+      <td>...</td>
+      <td>4.847310</td>
+      <td>6.018182</td>
+      <td>-6.226119</td>
+      <td>-3.902226</td>
+      <td>1.970443</td>
+      <td>-1.712875</td>
+      <td>4.777171</td>
+      <td>0.849656</td>
+      <td>0.540916</td>
+      <td>4.560062</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>50</td>
+      <td>3</td>
+      <td>6</td>
+      <td>1</td>
+      <td>3</td>
+      <td>Alabama</td>
+      <td>Baldwin County</td>
+      <td>182265</td>
+      <td>182265</td>
+      <td>183112</td>
+      <td>...</td>
+      <td>24.017829</td>
+      <td>16.641870</td>
+      <td>17.488579</td>
+      <td>22.751474</td>
+      <td>20.184334</td>
+      <td>17.725964</td>
+      <td>21.279291</td>
+      <td>22.398256</td>
+      <td>24.727215</td>
+      <td>24.380567</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>50</td>
+      <td>3</td>
+      <td>6</td>
+      <td>1</td>
+      <td>5</td>
+      <td>Alabama</td>
+      <td>Barbour County</td>
+      <td>27457</td>
+      <td>27455</td>
+      <td>27327</td>
+      <td>...</td>
+      <td>-5.690302</td>
+      <td>0.292676</td>
+      <td>-6.897817</td>
+      <td>-8.132185</td>
+      <td>-5.140431</td>
+      <td>-15.724575</td>
+      <td>-18.238016</td>
+      <td>-24.998528</td>
+      <td>-8.754922</td>
+      <td>-5.165664</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>50</td>
+      <td>3</td>
+      <td>6</td>
+      <td>1</td>
+      <td>7</td>
+      <td>Alabama</td>
+      <td>Bibb County</td>
+      <td>22915</td>
+      <td>22915</td>
+      <td>22870</td>
+      <td>...</td>
+      <td>1.385134</td>
+      <td>-4.998356</td>
+      <td>-3.787545</td>
+      <td>-5.797999</td>
+      <td>1.331144</td>
+      <td>1.329817</td>
+      <td>-0.708717</td>
+      <td>-3.234669</td>
+      <td>-6.857092</td>
+      <td>1.831952</td>
+    </tr>
+    <tr>
+      <th>...</th>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+    </tr>
+    <tr>
+      <th>3188</th>
+      <td>50</td>
+      <td>4</td>
+      <td>8</td>
+      <td>56</td>
+      <td>37</td>
+      <td>Wyoming</td>
+      <td>Sweetwater County</td>
+      <td>43806</td>
+      <td>43806</td>
+      <td>43574</td>
+      <td>...</td>
+      <td>-17.605427</td>
+      <td>0.502513</td>
+      <td>15.035735</td>
+      <td>-4.614071</td>
+      <td>-13.140225</td>
+      <td>-13.762031</td>
+      <td>-18.484164</td>
+      <td>-23.515727</td>
+      <td>-18.743773</td>
+      <td>-17.065527</td>
+    </tr>
+    <tr>
+      <th>3189</th>
+      <td>50</td>
+      <td>4</td>
+      <td>8</td>
+      <td>56</td>
+      <td>39</td>
+      <td>Wyoming</td>
+      <td>Teton County</td>
+      <td>21294</td>
+      <td>21298</td>
+      <td>21296</td>
+      <td>...</td>
+      <td>-1.583464</td>
+      <td>-2.575509</td>
+      <td>1.905293</td>
+      <td>23.259519</td>
+      <td>12.508872</td>
+      <td>4.670450</td>
+      <td>1.253214</td>
+      <td>-0.171608</td>
+      <td>-12.432212</td>
+      <td>1.797445</td>
+    </tr>
+    <tr>
+      <th>3190</th>
+      <td>50</td>
+      <td>4</td>
+      <td>8</td>
+      <td>56</td>
+      <td>41</td>
+      <td>Wyoming</td>
+      <td>Uinta County</td>
+      <td>21118</td>
+      <td>21121</td>
+      <td>21089</td>
+      <td>...</td>
+      <td>-9.181105</td>
+      <td>-18.196975</td>
+      <td>-4.487730</td>
+      <td>-10.870861</td>
+      <td>-15.033634</td>
+      <td>-10.484550</td>
+      <td>-11.485101</td>
+      <td>-18.923455</td>
+      <td>-13.554993</td>
+      <td>-9.181105</td>
+    </tr>
+    <tr>
+      <th>3191</th>
+      <td>50</td>
+      <td>4</td>
+      <td>8</td>
+      <td>56</td>
+      <td>43</td>
+      <td>Wyoming</td>
+      <td>Washakie County</td>
+      <td>8533</td>
+      <td>8528</td>
+      <td>8530</td>
+      <td>...</td>
+      <td>-7.652085</td>
+      <td>-12.839390</td>
+      <td>-3.084589</td>
+      <td>-1.307811</td>
+      <td>-18.938032</td>
+      <td>0.000000</td>
+      <td>-15.204038</td>
+      <td>-15.950541</td>
+      <td>-17.246806</td>
+      <td>-8.289759</td>
+    </tr>
+    <tr>
+      <th>3192</th>
+      <td>50</td>
+      <td>4</td>
+      <td>8</td>
+      <td>56</td>
+      <td>45</td>
+      <td>Wyoming</td>
+      <td>Weston County</td>
+      <td>7208</td>
+      <td>7208</td>
+      <td>7198</td>
+      <td>...</td>
+      <td>0.000000</td>
+      <td>-9.065551</td>
+      <td>-10.549265</td>
+      <td>6.191515</td>
+      <td>0.420345</td>
+      <td>9.201171</td>
+      <td>0.693097</td>
+      <td>-36.227798</td>
+      <td>-6.910452</td>
+      <td>2.599090</td>
+    </tr>
+  </tbody>
+</table>
+<p>3193 rows × 164 columns</p>
+</div>
+      <button class="colab-df-convert" onclick="convertToInteractive('df-c4455aad-16fc-4791-b199-3c0bbe19d99e')"
+              title="Convert this dataframe to an interactive table."
+              style="display:none;">
+        
+  <svg xmlns="http://www.w3.org/2000/svg" height="24px"viewBox="0 0 24 24"
+       width="24px">
+    <path d="M0 0h24v24H0V0z" fill="none"/>
+    <path d="M18.56 5.44l.94 2.06.94-2.06 2.06-.94-2.06-.94-.94-2.06-.94 2.06-2.06.94zm-11 1L8.5 8.5l.94-2.06 2.06-.94-2.06-.94L8.5 2.5l-.94 2.06-2.06.94zm10 10l.94 2.06.94-2.06 2.06-.94-2.06-.94-.94-2.06-.94 2.06-2.06.94z"/><path d="M17.41 7.96l-1.37-1.37c-.4-.4-.92-.59-1.43-.59-.52 0-1.04.2-1.43.59L10.3 9.45l-7.72 7.72c-.78.78-.78 2.05 0 2.83L4 21.41c.39.39.9.59 1.41.59.51 0 1.02-.2 1.41-.59l7.78-7.78 2.81-2.81c.8-.78.8-2.07 0-2.86zM5.41 20L4 18.59l7.72-7.72 1.47 1.35L5.41 20z"/>
+  </svg>
+      </button>
+      
+  <style>
+    .colab-df-container {
+      display:flex;
+      flex-wrap:wrap;
+      gap: 12px;
+    }
+
+    .colab-df-convert {
+      background-color: #E8F0FE;
+      border: none;
+      border-radius: 50%;
+      cursor: pointer;
+      display: none;
+      fill: #1967D2;
+      height: 32px;
+      padding: 0 0 0 0;
+      width: 32px;
+    }
+
+    .colab-df-convert:hover {
+      background-color: #E2EBFA;
+      box-shadow: 0px 1px 2px rgba(60, 64, 67, 0.3), 0px 1px 3px 1px rgba(60, 64, 67, 0.15);
+      fill: #174EA6;
+    }
+
+    [theme=dark] .colab-df-convert {
+      background-color: #3B4455;
+      fill: #D2E3FC;
+    }
+
+    [theme=dark] .colab-df-convert:hover {
+      background-color: #434B5C;
+      box-shadow: 0px 1px 3px 1px rgba(0, 0, 0, 0.15);
+      filter: drop-shadow(0px 1px 2px rgba(0, 0, 0, 0.3));
+      fill: #FFFFFF;
+    }
+  </style>
+
+      <script>
+        const buttonEl =
+          document.querySelector('#df-c4455aad-16fc-4791-b199-3c0bbe19d99e button.colab-df-convert');
+        buttonEl.style.display =
+          google.colab.kernel.accessAllowed ? 'block' : 'none';
+
+        async function convertToInteractive(key) {
+          const element = document.querySelector('#df-c4455aad-16fc-4791-b199-3c0bbe19d99e');
+          const dataTable =
+            await google.colab.kernel.invokeFunction('convertToInteractive',
+                                                     [key], {});
+          if (!dataTable) return;
+
+          const docLinkHtml = 'Like what you see? Visit the ' +
+            '<a target="_blank" href=https://colab.research.google.com/notebooks/data_table.ipynb>data table notebook</a>'
+            + ' to learn more about interactive tables.';
+          element.innerHTML = '';
+          dataTable['output_type'] = 'display_data';
+          await google.colab.output.renderOutput(dataTable, element);
+          const docLink = document.createElement('div');
+          docLink.innerHTML = docLinkHtml;
+          element.appendChild(docLink);
+        }
+      </script>
+    </div>
+  </div>
+  
+</div>
+<div class="output stream stderr">
+<pre><code>&lt;ipython-input-434-fee6c6f392c2&gt;:25: FutureWarning: The default value of regex will change from True to False in a future version.
+  pop[&#39;County&#39;] = pop[&#39;County&#39;].str.replace(r&#39;\ County$&#39;, &#39;&#39;)
+</code></pre>
+</div>
+<div class="output execute_result" data-execution_count="434">
+
+  <div id="df-ec5f57dd-35a9-4b96-8524-1a80990ed53c">
+    <div class="colab-df-container">
+      <div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>State</th>
+      <th>County</th>
+      <th>Year</th>
+      <th>Population</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>California</td>
+      <td>California</td>
+      <td>2015</td>
+      <td>38918045</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>California</td>
+      <td>Alameda</td>
+      <td>2015</td>
+      <td>1634538</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>California</td>
+      <td>Alpine</td>
+      <td>2015</td>
+      <td>1077</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>California</td>
+      <td>Amador</td>
+      <td>2015</td>
+      <td>37031</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>California</td>
+      <td>Butte</td>
+      <td>2015</td>
+      <td>224631</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+      <button class="colab-df-convert" onclick="convertToInteractive('df-ec5f57dd-35a9-4b96-8524-1a80990ed53c')"
+              title="Convert this dataframe to an interactive table."
+              style="display:none;">
+        
+  <svg xmlns="http://www.w3.org/2000/svg" height="24px"viewBox="0 0 24 24"
+       width="24px">
+    <path d="M0 0h24v24H0V0z" fill="none"/>
+    <path d="M18.56 5.44l.94 2.06.94-2.06 2.06-.94-2.06-.94-.94-2.06-.94 2.06-2.06.94zm-11 1L8.5 8.5l.94-2.06 2.06-.94-2.06-.94L8.5 2.5l-.94 2.06-2.06.94zm10 10l.94 2.06.94-2.06 2.06-.94-2.06-.94-.94-2.06-.94 2.06-2.06.94z"/><path d="M17.41 7.96l-1.37-1.37c-.4-.4-.92-.59-1.43-.59-.52 0-1.04.2-1.43.59L10.3 9.45l-7.72 7.72c-.78.78-.78 2.05 0 2.83L4 21.41c.39.39.9.59 1.41.59.51 0 1.02-.2 1.41-.59l7.78-7.78 2.81-2.81c.8-.78.8-2.07 0-2.86zM5.41 20L4 18.59l7.72-7.72 1.47 1.35L5.41 20z"/>
+  </svg>
+      </button>
+      
+  <style>
+    .colab-df-container {
+      display:flex;
+      flex-wrap:wrap;
+      gap: 12px;
+    }
+
+    .colab-df-convert {
+      background-color: #E8F0FE;
+      border: none;
+      border-radius: 50%;
+      cursor: pointer;
+      display: none;
+      fill: #1967D2;
+      height: 32px;
+      padding: 0 0 0 0;
+      width: 32px;
+    }
+
+    .colab-df-convert:hover {
+      background-color: #E2EBFA;
+      box-shadow: 0px 1px 2px rgba(60, 64, 67, 0.3), 0px 1px 3px 1px rgba(60, 64, 67, 0.15);
+      fill: #174EA6;
+    }
+
+    [theme=dark] .colab-df-convert {
+      background-color: #3B4455;
+      fill: #D2E3FC;
+    }
+
+    [theme=dark] .colab-df-convert:hover {
+      background-color: #434B5C;
+      box-shadow: 0px 1px 3px 1px rgba(0, 0, 0, 0.15);
+      filter: drop-shadow(0px 1px 2px rgba(0, 0, 0, 0.3));
+      fill: #FFFFFF;
+    }
+  </style>
+
+      <script>
+        const buttonEl =
+          document.querySelector('#df-ec5f57dd-35a9-4b96-8524-1a80990ed53c button.colab-df-convert');
+        buttonEl.style.display =
+          google.colab.kernel.accessAllowed ? 'block' : 'none';
+
+        async function convertToInteractive(key) {
+          const element = document.querySelector('#df-ec5f57dd-35a9-4b96-8524-1a80990ed53c');
+          const dataTable =
+            await google.colab.kernel.invokeFunction('convertToInteractive',
+                                                     [key], {});
+          if (!dataTable) return;
+
+          const docLinkHtml = 'Like what you see? Visit the ' +
+            '<a target="_blank" href=https://colab.research.google.com/notebooks/data_table.ipynb>data table notebook</a>'
+            + ' to learn more about interactive tables.';
+          element.innerHTML = '';
+          dataTable['output_type'] = 'display_data';
+          await google.colab.output.renderOutput(dataTable, element);
+          const docLink = document.createElement('div');
+          docLink.innerHTML = docLinkHtml;
+          element.appendChild(docLink);
+        }
+      </script>
+    </div>
+  </div>
+  
+</div>
+</div>
+<div id="Me4EC29wMep9" class="cell markdown" id="Me4EC29wMep9">
+<h1
+id="merge-population-data-with-aqi-and-asthma-hospitalizations-dataset">Merge
+Population Data with AQI and Asthma Hospitalizations Dataset</h1>
+<p>After cleaning our population data, we once again performed</p>
+</div>
+<div id="984875d3-e1f6-4f47-9853-342678b16f85" class="cell code"
+data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;,&quot;height&quot;:424}"
+id="984875d3-e1f6-4f47-9853-342678b16f85"
+data-outputId="c8b68ebc-8853-46e0-c5a6-dd749b0e9087">
+<div class="sourceCode" id="cb13"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb13-1"><a href="#cb13-1" aria-hidden="true" tabindex="-1"></a><span class="co"># merge with aqi x asthma dataset so that it now includes population </span></span>
+<span id="cb13-2"><a href="#cb13-2" aria-hidden="true" tabindex="-1"></a><span class="co"># by county for that year</span></span>
+<span id="cb13-3"><a href="#cb13-3" aria-hidden="true" tabindex="-1"></a>df <span class="op">=</span> pd.merge(merged_df, pop, how<span class="op">=</span><span class="st">&#39;inner&#39;</span>, on<span class="op">=</span>[<span class="st">&#39;County&#39;</span>, <span class="st">&#39;Year&#39;</span>])</span>
+<span id="cb13-4"><a href="#cb13-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb13-5"><a href="#cb13-5" aria-hidden="true" tabindex="-1"></a><span class="co"># Rename columns</span></span>
+<span id="cb13-6"><a href="#cb13-6" aria-hidden="true" tabindex="-1"></a>df <span class="op">=</span> df.rename(columns<span class="op">=</span>{<span class="st">&#39;Days with AQI&#39;</span>: <span class="st">&#39;Days_aqi&#39;</span>,</span>
+<span id="cb13-7"><a href="#cb13-7" aria-hidden="true" tabindex="-1"></a>                        <span class="st">&#39;Median AQI&#39;</span>: <span class="st">&#39;Median_aqi&#39;</span>,</span>
+<span id="cb13-8"><a href="#cb13-8" aria-hidden="true" tabindex="-1"></a>                        <span class="st">&#39;Max AQI&#39;</span>: <span class="st">&#39;Max_aqi&#39;</span>})</span>
+<span id="cb13-9"><a href="#cb13-9" aria-hidden="true" tabindex="-1"></a>df <span class="op">=</span> df[[<span class="st">&#39;County&#39;</span>, <span class="st">&#39;Year&#39;</span>, <span class="st">&#39;Num_hosp&#39;</span>, <span class="st">&#39;Days_aqi&#39;</span>, <span class="st">&#39;Adj_hosp_rate&#39;</span>, <span class="st">&#39;Max_aqi&#39;</span>,<span class="st">&#39;Median_aqi&#39;</span>,<span class="st">&#39;Population&#39;</span>]]</span>
+<span id="cb13-10"><a href="#cb13-10" aria-hidden="true" tabindex="-1"></a>df.dropna(inplace<span class="op">=</span><span class="va">True</span>)</span>
+<span id="cb13-11"><a href="#cb13-11" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb13-12"><a href="#cb13-12" aria-hidden="true" tabindex="-1"></a>df[<span class="st">&#39;Num_hosp_adjusted_pop&#39;</span>] <span class="op">=</span> df[<span class="st">&#39;Num_hosp&#39;</span>] <span class="op">/</span> df[<span class="st">&#39;Population&#39;</span>]</span>
+<span id="cb13-13"><a href="#cb13-13" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb13-14"><a href="#cb13-14" aria-hidden="true" tabindex="-1"></a><span class="co">#Dropping rows with less then 100 days recorded for a given year</span></span>
+<span id="cb13-15"><a href="#cb13-15" aria-hidden="true" tabindex="-1"></a>df <span class="op">=</span> df[df[<span class="st">&#39;Days_aqi&#39;</span>] <span class="op">&gt;=</span> <span class="dv">100</span>]</span>
+<span id="cb13-16"><a href="#cb13-16" aria-hidden="true" tabindex="-1"></a>df.reset_index(drop<span class="op">=</span><span class="va">True</span>,inplace<span class="op">=</span><span class="va">True</span>)</span>
+<span id="cb13-17"><a href="#cb13-17" aria-hidden="true" tabindex="-1"></a>df</span></code></pre></div>
+<div class="output execute_result" data-execution_count="435">
+
+  <div id="df-33f21434-3026-402d-a3f9-9fbacb697ff1">
+    <div class="colab-df-container">
+      <div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>County</th>
+      <th>Year</th>
+      <th>Num_hosp</th>
+      <th>Days_aqi</th>
+      <th>Adj_hosp_rate</th>
+      <th>Max_aqi</th>
+      <th>Median_aqi</th>
+      <th>Population</th>
+      <th>Num_hosp_adjusted_pop</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>Alameda</td>
+      <td>2015</td>
+      <td>1435.0</td>
+      <td>365</td>
+      <td>9.3</td>
+      <td>147</td>
+      <td>46</td>
+      <td>1634538</td>
+      <td>0.000878</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>Amador</td>
+      <td>2015</td>
+      <td>28.0</td>
+      <td>364</td>
+      <td>7.5</td>
+      <td>140</td>
+      <td>41</td>
+      <td>37031</td>
+      <td>0.000756</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>Butte</td>
+      <td>2015</td>
+      <td>143.0</td>
+      <td>365</td>
+      <td>6.7</td>
+      <td>152</td>
+      <td>52</td>
+      <td>224631</td>
+      <td>0.000637</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>Calaveras</td>
+      <td>2015</td>
+      <td>32.0</td>
+      <td>365</td>
+      <td>6.5</td>
+      <td>320</td>
+      <td>45</td>
+      <td>44965</td>
+      <td>0.000712</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>Contra Costa</td>
+      <td>2015</td>
+      <td>910.0</td>
+      <td>365</td>
+      <td>8.3</td>
+      <td>147</td>
+      <td>44</td>
+      <td>1124405</td>
+      <td>0.000809</td>
+    </tr>
+    <tr>
+      <th>...</th>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+    </tr>
+    <tr>
+      <th>217</th>
+      <td>Tehama</td>
+      <td>2019</td>
+      <td>25.0</td>
+      <td>365</td>
+      <td>4.5</td>
+      <td>93</td>
+      <td>41</td>
+      <td>65084</td>
+      <td>0.000384</td>
+    </tr>
+    <tr>
+      <th>218</th>
+      <td>Tulare</td>
+      <td>2019</td>
+      <td>210.0</td>
+      <td>365</td>
+      <td>4.2</td>
+      <td>280</td>
+      <td>66</td>
+      <td>466195</td>
+      <td>0.000450</td>
+    </tr>
+    <tr>
+      <th>219</th>
+      <td>Tuolumne</td>
+      <td>2019</td>
+      <td>21.0</td>
+      <td>358</td>
+      <td>5.4</td>
+      <td>108</td>
+      <td>43</td>
+      <td>54478</td>
+      <td>0.000385</td>
+    </tr>
+    <tr>
+      <th>220</th>
+      <td>Ventura</td>
+      <td>2019</td>
+      <td>252.0</td>
+      <td>365</td>
+      <td>3.0</td>
+      <td>126</td>
+      <td>46</td>
+      <td>846006</td>
+      <td>0.000298</td>
+    </tr>
+    <tr>
+      <th>221</th>
+      <td>Yolo</td>
+      <td>2019</td>
+      <td>57.0</td>
+      <td>365</td>
+      <td>2.8</td>
+      <td>136</td>
+      <td>41</td>
+      <td>220500</td>
+      <td>0.000259</td>
+    </tr>
+  </tbody>
+</table>
+<p>222 rows × 9 columns</p>
+</div>
+      <button class="colab-df-convert" onclick="convertToInteractive('df-33f21434-3026-402d-a3f9-9fbacb697ff1')"
+              title="Convert this dataframe to an interactive table."
+              style="display:none;">
+        
+  <svg xmlns="http://www.w3.org/2000/svg" height="24px"viewBox="0 0 24 24"
+       width="24px">
+    <path d="M0 0h24v24H0V0z" fill="none"/>
+    <path d="M18.56 5.44l.94 2.06.94-2.06 2.06-.94-2.06-.94-.94-2.06-.94 2.06-2.06.94zm-11 1L8.5 8.5l.94-2.06 2.06-.94-2.06-.94L8.5 2.5l-.94 2.06-2.06.94zm10 10l.94 2.06.94-2.06 2.06-.94-2.06-.94-.94-2.06-.94 2.06-2.06.94z"/><path d="M17.41 7.96l-1.37-1.37c-.4-.4-.92-.59-1.43-.59-.52 0-1.04.2-1.43.59L10.3 9.45l-7.72 7.72c-.78.78-.78 2.05 0 2.83L4 21.41c.39.39.9.59 1.41.59.51 0 1.02-.2 1.41-.59l7.78-7.78 2.81-2.81c.8-.78.8-2.07 0-2.86zM5.41 20L4 18.59l7.72-7.72 1.47 1.35L5.41 20z"/>
+  </svg>
+      </button>
+      
+  <style>
+    .colab-df-container {
+      display:flex;
+      flex-wrap:wrap;
+      gap: 12px;
+    }
+
+    .colab-df-convert {
+      background-color: #E8F0FE;
+      border: none;
+      border-radius: 50%;
+      cursor: pointer;
+      display: none;
+      fill: #1967D2;
+      height: 32px;
+      padding: 0 0 0 0;
+      width: 32px;
+    }
+
+    .colab-df-convert:hover {
+      background-color: #E2EBFA;
+      box-shadow: 0px 1px 2px rgba(60, 64, 67, 0.3), 0px 1px 3px 1px rgba(60, 64, 67, 0.15);
+      fill: #174EA6;
+    }
+
+    [theme=dark] .colab-df-convert {
+      background-color: #3B4455;
+      fill: #D2E3FC;
+    }
+
+    [theme=dark] .colab-df-convert:hover {
+      background-color: #434B5C;
+      box-shadow: 0px 1px 3px 1px rgba(0, 0, 0, 0.15);
+      filter: drop-shadow(0px 1px 2px rgba(0, 0, 0, 0.3));
+      fill: #FFFFFF;
+    }
+  </style>
+
+      <script>
+        const buttonEl =
+          document.querySelector('#df-33f21434-3026-402d-a3f9-9fbacb697ff1 button.colab-df-convert');
+        buttonEl.style.display =
+          google.colab.kernel.accessAllowed ? 'block' : 'none';
+
+        async function convertToInteractive(key) {
+          const element = document.querySelector('#df-33f21434-3026-402d-a3f9-9fbacb697ff1');
+          const dataTable =
+            await google.colab.kernel.invokeFunction('convertToInteractive',
+                                                     [key], {});
+          if (!dataTable) return;
+
+          const docLinkHtml = 'Like what you see? Visit the ' +
+            '<a target="_blank" href=https://colab.research.google.com/notebooks/data_table.ipynb>data table notebook</a>'
+            + ' to learn more about interactive tables.';
+          element.innerHTML = '';
+          dataTable['output_type'] = 'display_data';
+          await google.colab.output.renderOutput(dataTable, element);
+          const docLink = document.createElement('div');
+          docLink.innerHTML = docLinkHtml;
+          element.appendChild(docLink);
+        }
+      </script>
+    </div>
+  </div>
+  
+</div>
+</div>
+<div id="VJlZflT3oHf3" class="cell code"
+data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;}"
+id="VJlZflT3oHf3" data-outputId="4e1516d1-099b-4611-be68-ce3af8a64e50">
+<div class="sourceCode" id="cb14"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb14-1"><a href="#cb14-1" aria-hidden="true" tabindex="-1"></a>avged_df <span class="op">=</span> df.groupby(df[<span class="st">&#39;County&#39;</span>])[<span class="st">&#39;Num_hosp&#39;</span>, <span class="st">&#39;Days_aqi&#39;</span>, <span class="st">&#39;Adj_hosp_rate&#39;</span>, <span class="st">&#39;Max_aqi&#39;</span>, <span class="st">&#39;Median_aqi&#39;</span>, <span class="st">&#39;Adj_hosp_rate&#39;</span>, <span class="st">&#39;Num_hosp_adjusted_pop&#39;</span>, <span class="st">&#39;Population&#39;</span>].transform(<span class="st">&#39;mean&#39;</span>)</span>
+<span id="cb14-2"><a href="#cb14-2" aria-hidden="true" tabindex="-1"></a>avged_df[<span class="st">&#39;County&#39;</span>] <span class="op">=</span> df[<span class="st">&#39;County&#39;</span>]</span>
+<span id="cb14-3"><a href="#cb14-3" aria-hidden="true" tabindex="-1"></a>avged_df[<span class="st">&#39;Year&#39;</span>] <span class="op">=</span> <span class="st">&#39;2015-2019&#39;</span></span>
+<span id="cb14-4"><a href="#cb14-4" aria-hidden="true" tabindex="-1"></a>avged_df <span class="op">=</span> avged_df[[<span class="st">&#39;County&#39;</span>, <span class="st">&#39;Year&#39;</span>, <span class="st">&#39;Num_hosp&#39;</span>, <span class="st">&#39;Days_aqi&#39;</span>, <span class="st">&#39;Adj_hosp_rate&#39;</span>, <span class="st">&#39;Max_aqi&#39;</span>,<span class="st">&#39;Median_aqi&#39;</span>, <span class="st">&#39;Adj_hosp_rate&#39;</span>, <span class="st">&#39;Num_hosp_adjusted_pop&#39;</span>, <span class="st">&#39;Population&#39;</span>]]</span>
+<span id="cb14-5"><a href="#cb14-5" aria-hidden="true" tabindex="-1"></a>avged_df <span class="op">=</span> avged_df.iloc[:<span class="dv">46</span>]</span>
+<span id="cb14-6"><a href="#cb14-6" aria-hidden="true" tabindex="-1"></a>avged_df[<span class="st">&#39;Population&#39;</span>] <span class="op">=</span> avged_df[<span class="st">&#39;Population&#39;</span>].astype(<span class="bu">int</span>)</span></code></pre></div>
+<div class="output stream stderr">
+<pre><code>&lt;ipython-input-436-0e9d7b390778&gt;:1: FutureWarning: Indexing with multiple keys (implicitly converted to a tuple of keys) will be deprecated, use a list instead.
+  avged_df = df.groupby(df[&#39;County&#39;])[&#39;Num_hosp&#39;, &#39;Days_aqi&#39;, &#39;Adj_hosp_rate&#39;, &#39;Max_aqi&#39;, &#39;Median_aqi&#39;, &#39;Adj_hosp_rate&#39;, &#39;Num_hosp_adjusted_pop&#39;, &#39;Population&#39;].transform(&#39;mean&#39;)
+</code></pre>
+</div>
+</div>
+<div id="CvhMGuyAuE6R" class="cell markdown" id="CvhMGuyAuE6R">
+<h1 id="cleaning-copd-and-asthma-related-deaths-data">Cleaning COPD and
+Asthma-Related Deaths Data</h1>
+<p>TODO: Give description of data imported</p>
+<hr />
+<h1 id="data-cleaning">Data cleaning</h1>
+<ul>
+<li>Filter the years to be only 2015-2019.</li>
+<li>This table seperates each cause of death into its own for each
+county/year combination between 2000-2020. We'll need to filter rows
+that match the causes of death we're looking for.</li>
+<li>Rows also have compilmentary values Count_ICD10 and Count_ICD9, both
+values represent the count people dying due to the respective condition
+however they represent the count for instances before and up to 2015 and
+after 2015 respectively. This data will need to be combined into a
+single column in order to be used for our analysis.</li>
+</ul>
+</div>
+<div id="cU6MjrqQuoZH" class="cell code"
+data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;,&quot;height&quot;:424}"
+id="cU6MjrqQuoZH" data-outputId="f10d0233-3bf2-4b4c-9315-d6123cfe0c75">
+<div class="sourceCode" id="cb16"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb16-1"><a href="#cb16-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Read in our table</span></span>
+<span id="cb16-2"><a href="#cb16-2" aria-hidden="true" tabindex="-1"></a>COPD <span class="op">=</span> pd.read_csv(<span class="st">&#39;https://raw.githubusercontent.com/ThomasJohnson35/CMSC320-datasets/main/ca-hcai-preventablehospitalizations-county.csv&#39;</span>, on_bad_lines<span class="op">=</span><span class="st">&#39;skip&#39;</span>)</span>
+<span id="cb16-3"><a href="#cb16-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb16-4"><a href="#cb16-4" aria-hidden="true" tabindex="-1"></a><span class="co"># Display unclean data</span></span>
+<span id="cb16-5"><a href="#cb16-5" aria-hidden="true" tabindex="-1"></a>display(COPD)</span>
+<span id="cb16-6"><a href="#cb16-6" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb16-7"><a href="#cb16-7" aria-hidden="true" tabindex="-1"></a><span class="co"># Filter target years</span></span>
+<span id="cb16-8"><a href="#cb16-8" aria-hidden="true" tabindex="-1"></a>COPD <span class="op">=</span> COPD[(COPD[<span class="st">&#39;Year&#39;</span>] <span class="op">&gt;=</span> <span class="dv">2015</span>) <span class="op">&amp;</span> (COPD[<span class="st">&#39;Year&#39;</span>] <span class="op">&lt;=</span> <span class="dv">2019</span> )]</span>
+<span id="cb16-9"><a href="#cb16-9" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb16-10"><a href="#cb16-10" aria-hidden="true" tabindex="-1"></a><span class="co"># Drop unnecessary columns</span></span>
+<span id="cb16-11"><a href="#cb16-11" aria-hidden="true" tabindex="-1"></a>COPD <span class="op">=</span> COPD[[<span class="st">&#39;Year&#39;</span>, <span class="st">&#39;County&#39;</span>, <span class="st">&#39;PQIDescription&#39;</span>, <span class="st">&#39;Count_ICD9&#39;</span>,<span class="st">&#39;Count_ICD10&#39;</span>]]</span>
+<span id="cb16-12"><a href="#cb16-12" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb16-13"><a href="#cb16-13" aria-hidden="true" tabindex="-1"></a><span class="co"># Drop rows that do not deal with asthma and COPD</span></span>
+<span id="cb16-14"><a href="#cb16-14" aria-hidden="true" tabindex="-1"></a>COPD <span class="op">=</span> COPD[ (COPD[<span class="st">&#39;PQIDescription&#39;</span>] <span class="op">==</span> <span class="st">&#39;Asthma in Younger Adults (Age 18-39)&#39;</span>) <span class="op">|</span> (COPD[<span class="st">&#39;PQIDescription&#39;</span>] <span class="op">==</span> <span class="st">&#39;COPD or Asthma in Older Adults (Age 40+)&#39;</span>)]</span>
+<span id="cb16-15"><a href="#cb16-15" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb16-16"><a href="#cb16-16" aria-hidden="true" tabindex="-1"></a><span class="co"># Fill in NA values with 0</span></span>
+<span id="cb16-17"><a href="#cb16-17" aria-hidden="true" tabindex="-1"></a>COPD <span class="op">=</span> COPD.fillna(<span class="fl">0.0</span>)</span>
+<span id="cb16-18"><a href="#cb16-18" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb16-19"><a href="#cb16-19" aria-hidden="true" tabindex="-1"></a><span class="co"># Combine the count from both rows into one</span></span>
+<span id="cb16-20"><a href="#cb16-20" aria-hidden="true" tabindex="-1"></a>COPD <span class="op">=</span> COPD[pd.to_numeric(COPD[<span class="st">&#39;Count_ICD10&#39;</span>], errors<span class="op">=</span><span class="st">&#39;coerce&#39;</span>).notnull()]</span>
+<span id="cb16-21"><a href="#cb16-21" aria-hidden="true" tabindex="-1"></a>COPD <span class="op">=</span> COPD[pd.to_numeric(COPD[<span class="st">&#39;Count_ICD9&#39;</span>], errors<span class="op">=</span><span class="st">&#39;coerce&#39;</span>).notnull()]</span>
+<span id="cb16-22"><a href="#cb16-22" aria-hidden="true" tabindex="-1"></a>COPD[<span class="st">&#39;COPD_and_Asthma_Deaths&#39;</span>] <span class="op">=</span> COPD[<span class="st">&#39;Count_ICD10&#39;</span>].astype(<span class="bu">float</span>)  <span class="op">+</span> COPD[<span class="st">&#39;Count_ICD9&#39;</span>].astype(<span class="bu">float</span>)</span>
+<span id="cb16-23"><a href="#cb16-23" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb16-24"><a href="#cb16-24" aria-hidden="true" tabindex="-1"></a><span class="co"># Drop obsolete columns</span></span>
+<span id="cb16-25"><a href="#cb16-25" aria-hidden="true" tabindex="-1"></a>COPD <span class="op">=</span> COPD.drop(columns <span class="op">=</span> [<span class="st">&#39;PQIDescription&#39;</span>, <span class="st">&#39;Count_ICD9&#39;</span>, <span class="st">&#39;Count_ICD10&#39;</span>])</span>
+<span id="cb16-26"><a href="#cb16-26" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb16-27"><a href="#cb16-27" aria-hidden="true" tabindex="-1"></a><span class="co"># Merge rows together</span></span>
+<span id="cb16-28"><a href="#cb16-28" aria-hidden="true" tabindex="-1"></a>COPD_deaths_df <span class="op">=</span> COPD.groupby([<span class="st">&#39;County&#39;</span>, <span class="st">&#39;Year&#39;</span>]).<span class="bu">sum</span>()</span>
+<span id="cb16-29"><a href="#cb16-29" aria-hidden="true" tabindex="-1"></a>COPD_deaths_df <span class="op">=</span> COPD_deaths_df.groupby([<span class="st">&#39;County&#39;</span>]).mean()</span>
+<span id="cb16-30"><a href="#cb16-30" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb16-31"><a href="#cb16-31" aria-hidden="true" tabindex="-1"></a><span class="co">#Adding COPD Deaths and Merging</span></span>
+<span id="cb16-32"><a href="#cb16-32" aria-hidden="true" tabindex="-1"></a>avged_df <span class="op">=</span> pd.merge(avged_df, COPD_deaths_df, how<span class="op">=</span><span class="st">&#39;inner&#39;</span>, on<span class="op">=</span><span class="st">&#39;County&#39;</span>)</span></code></pre></div>
+<div class="output display_data">
+
+  <div id="df-85c849d5-132a-4d48-b87b-81241931b7ae">
+    <div class="colab-df-container">
+      <div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>Year</th>
+      <th>County</th>
+      <th>PQI</th>
+      <th>PQIDescription</th>
+      <th>Count_ICD9</th>
+      <th>Population_ICD9</th>
+      <th>ObsRate_ICD9</th>
+      <th>RiskAdjRate_ICD9</th>
+      <th>Count_ICD10</th>
+      <th>Population_ICD10</th>
+      <th>ObsRate_ICD10</th>
+      <th>RiskAdjRate_ICD10</th>
+      <th>AnnotationCode</th>
+      <th>AnnotationDesc</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>2005</td>
+      <td>Alameda</td>
+      <td>1</td>
+      <td>Diabetes Short-term Complications</td>
+      <td>538.0</td>
+      <td>1102068.0</td>
+      <td>48.8</td>
+      <td>47.3</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>2006</td>
+      <td>Alameda</td>
+      <td>1</td>
+      <td>Diabetes Short-term Complications</td>
+      <td>479.0</td>
+      <td>1106823.0</td>
+      <td>43.3</td>
+      <td>42.0</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>2007</td>
+      <td>Alameda</td>
+      <td>1</td>
+      <td>Diabetes Short-term Complications</td>
+      <td>475.0</td>
+      <td>1117973.0</td>
+      <td>42.5</td>
+      <td>41.3</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>2008</td>
+      <td>Alameda</td>
+      <td>1</td>
+      <td>Diabetes Short-term Complications</td>
+      <td>531.0</td>
+      <td>1136417.0</td>
+      <td>46.7</td>
+      <td>45.5</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>2009</td>
+      <td>Alameda</td>
+      <td>1</td>
+      <td>Diabetes Short-term Complications</td>
+      <td>586.0</td>
+      <td>1155287.0</td>
+      <td>50.7</td>
+      <td>49.4</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <th>...</th>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+    </tr>
+    <tr>
+      <th>15335</th>
+      <td>2017</td>
+      <td>Yuba</td>
+      <td>93</td>
+      <td>Diabetes Composite</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>212</td>
+      <td>55,421</td>
+      <td>382.5</td>
+      <td>334.7</td>
+      <td>NaN</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <th>15336</th>
+      <td>2018</td>
+      <td>Yuba</td>
+      <td>93</td>
+      <td>Diabetes Composite</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>240</td>
+      <td>55,951</td>
+      <td>428.9</td>
+      <td>374.6</td>
+      <td>NaN</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <th>15337</th>
+      <td>2019</td>
+      <td>Yuba</td>
+      <td>93</td>
+      <td>Diabetes Composite</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>213</td>
+      <td>56,969</td>
+      <td>373.9</td>
+      <td>325.2</td>
+      <td>NaN</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <th>15338</th>
+      <td>2020</td>
+      <td>Yuba</td>
+      <td>93</td>
+      <td>Diabetes Composite</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>167</td>
+      <td>59,230</td>
+      <td>282.0</td>
+      <td>244.8</td>
+      <td>NaN</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <th>15339</th>
+      <td>2021</td>
+      <td>Yuba</td>
+      <td>93</td>
+      <td>Diabetes Composite</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>200</td>
+      <td>60,495</td>
+      <td>330.6</td>
+      <td>287.1</td>
+      <td>NaN</td>
+      <td>NaN</td>
+    </tr>
+  </tbody>
+</table>
+<p>15340 rows × 14 columns</p>
+</div>
+      <button class="colab-df-convert" onclick="convertToInteractive('df-85c849d5-132a-4d48-b87b-81241931b7ae')"
+              title="Convert this dataframe to an interactive table."
+              style="display:none;">
+        
+  <svg xmlns="http://www.w3.org/2000/svg" height="24px"viewBox="0 0 24 24"
+       width="24px">
+    <path d="M0 0h24v24H0V0z" fill="none"/>
+    <path d="M18.56 5.44l.94 2.06.94-2.06 2.06-.94-2.06-.94-.94-2.06-.94 2.06-2.06.94zm-11 1L8.5 8.5l.94-2.06 2.06-.94-2.06-.94L8.5 2.5l-.94 2.06-2.06.94zm10 10l.94 2.06.94-2.06 2.06-.94-2.06-.94-.94-2.06-.94 2.06-2.06.94z"/><path d="M17.41 7.96l-1.37-1.37c-.4-.4-.92-.59-1.43-.59-.52 0-1.04.2-1.43.59L10.3 9.45l-7.72 7.72c-.78.78-.78 2.05 0 2.83L4 21.41c.39.39.9.59 1.41.59.51 0 1.02-.2 1.41-.59l7.78-7.78 2.81-2.81c.8-.78.8-2.07 0-2.86zM5.41 20L4 18.59l7.72-7.72 1.47 1.35L5.41 20z"/>
+  </svg>
+      </button>
+      
+  <style>
+    .colab-df-container {
+      display:flex;
+      flex-wrap:wrap;
+      gap: 12px;
+    }
+
+    .colab-df-convert {
+      background-color: #E8F0FE;
+      border: none;
+      border-radius: 50%;
+      cursor: pointer;
+      display: none;
+      fill: #1967D2;
+      height: 32px;
+      padding: 0 0 0 0;
+      width: 32px;
+    }
+
+    .colab-df-convert:hover {
+      background-color: #E2EBFA;
+      box-shadow: 0px 1px 2px rgba(60, 64, 67, 0.3), 0px 1px 3px 1px rgba(60, 64, 67, 0.15);
+      fill: #174EA6;
+    }
+
+    [theme=dark] .colab-df-convert {
+      background-color: #3B4455;
+      fill: #D2E3FC;
+    }
+
+    [theme=dark] .colab-df-convert:hover {
+      background-color: #434B5C;
+      box-shadow: 0px 1px 3px 1px rgba(0, 0, 0, 0.15);
+      filter: drop-shadow(0px 1px 2px rgba(0, 0, 0, 0.3));
+      fill: #FFFFFF;
+    }
+  </style>
+
+      <script>
+        const buttonEl =
+          document.querySelector('#df-85c849d5-132a-4d48-b87b-81241931b7ae button.colab-df-convert');
+        buttonEl.style.display =
+          google.colab.kernel.accessAllowed ? 'block' : 'none';
+
+        async function convertToInteractive(key) {
+          const element = document.querySelector('#df-85c849d5-132a-4d48-b87b-81241931b7ae');
+          const dataTable =
+            await google.colab.kernel.invokeFunction('convertToInteractive',
+                                                     [key], {});
+          if (!dataTable) return;
+
+          const docLinkHtml = 'Like what you see? Visit the ' +
+            '<a target="_blank" href=https://colab.research.google.com/notebooks/data_table.ipynb>data table notebook</a>'
+            + ' to learn more about interactive tables.';
+          element.innerHTML = '';
+          dataTable['output_type'] = 'display_data';
+          await google.colab.output.renderOutput(dataTable, element);
+          const docLink = document.createElement('div');
+          docLink.innerHTML = docLinkHtml;
+          element.appendChild(docLink);
+        }
+      </script>
+    </div>
+  </div>
+  
+</div>
+</div>
+<div id="zFvxLBINusSw" class="cell markdown" id="zFvxLBINusSw">
+<h1 id="adding-lung-and-bronchus-cancer-rates">Adding lung and bronchus
+cancer rates</h1>
+<p>TODO: Brief overview of data</p>
+<hr />
+<h1 id="data-cleaning">Data cleaning</h1>
+<ul>
+<li>Some of the rows towards the end of the data set are intended as
+comments and do not have the values were looking for, we'll want to drop
+these</li>
+<li>County values are labled as "x County" rather than simply "x". In
+order to fit our formatting standards we will need to trim the "County"
+portion off of each of these values. As well as trimming off the "(7)"
+from the rows</li>
+</ul>
+</div>
+<div id="uYsOo9_OuwA2" class="cell code" id="uYsOo9_OuwA2">
+<div class="sourceCode" id="cb17"><pre
+class="sourceCode python"><code class="sourceCode python"></code></pre></div>
+</div>
+<div id="R1Go-uuS6Awt" class="cell code"
+data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;,&quot;height&quot;:761}"
+id="R1Go-uuS6Awt" data-outputId="42cafc61-88a7-4f90-ab8b-06fc7924dcd4">
+<div class="sourceCode" id="cb18"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb18-1"><a href="#cb18-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Read in our table</span></span>
+<span id="cb18-2"><a href="#cb18-2" aria-hidden="true" tabindex="-1"></a>cancer <span class="op">=</span> pd.read_csv(<span class="st">&#39;https://raw.githubusercontent.com/ThomasJohnson35/CMSC320-datasets/main/lung_and_bronchus_cancer_rate_by_county_california.csv&#39;</span>)</span>
+<span id="cb18-3"><a href="#cb18-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb18-4"><a href="#cb18-4" aria-hidden="true" tabindex="-1"></a><span class="co"># Print unclean data</span></span>
+<span id="cb18-5"><a href="#cb18-5" aria-hidden="true" tabindex="-1"></a>display(cancer)</span>
+<span id="cb18-6"><a href="#cb18-6" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb18-7"><a href="#cb18-7" aria-hidden="true" tabindex="-1"></a>cancer <span class="op">=</span> cancer[cancer[<span class="st">&#39;Age-Adjusted Incidence Rate([rate note]) - cases per 100,000&#39;</span>].notna()]</span>
+<span id="cb18-8"><a href="#cb18-8" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb18-9"><a href="#cb18-9" aria-hidden="true" tabindex="-1"></a>cancer[<span class="st">&#39;County&#39;</span>] <span class="op">=</span> cancer[<span class="st">&#39;County&#39;</span>].<span class="bu">str</span>.replace(<span class="vs">r&#39;\ County\(7\)$&#39;</span>, <span class="st">&#39;&#39;</span>)</span>
+<span id="cb18-10"><a href="#cb18-10" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb18-11"><a href="#cb18-11" aria-hidden="true" tabindex="-1"></a>cancer <span class="op">=</span> cancer[[<span class="st">&#39;County&#39;</span>, <span class="st">&#39;Age-Adjusted Incidence Rate([rate note]) - cases per 100,000&#39;</span>, <span class="st">&#39;Average Annual Count&#39;</span>]]</span>
+<span id="cb18-12"><a href="#cb18-12" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb18-13"><a href="#cb18-13" aria-hidden="true" tabindex="-1"></a>cancer.head()</span></code></pre></div>
+<div class="output display_data">
+
+  <div id="df-33932bf8-e26e-4be9-b373-d55b5d0ab4dc">
+    <div class="colab-df-container">
+      <div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>County</th>
+      <th>FIPS</th>
+      <th>Age-Adjusted Incidence Rate([rate note]) - cases per 100,000</th>
+      <th>Lower 95% Confidence Interval</th>
+      <th>Upper 95% Confidence Interval</th>
+      <th>CI*Rank([rank note])</th>
+      <th>Lower CI (CI*Rank)</th>
+      <th>Upper CI (CI*Rank)</th>
+      <th>Average Annual Count</th>
+      <th>Recent Trend</th>
+      <th>Recent 5-Year Trend ([trend note]) in Incidence Rates</th>
+      <th>Lower 95% Confidence Interval.1</th>
+      <th>Upper 95% Confidence Interval.1</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>California(7)</td>
+      <td>6000.0</td>
+      <td>39.4</td>
+      <td>39.1</td>
+      <td>39.6</td>
+      <td>NaN</td>
+      <td>46</td>
+      <td>48</td>
+      <td>17021</td>
+      <td>falling</td>
+      <td>-3</td>
+      <td>-3.2</td>
+      <td>-2.7</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>US (SEER+NPCR)(1)</td>
+      <td>0.0</td>
+      <td>56.3</td>
+      <td>56.2</td>
+      <td>56.4</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>223216</td>
+      <td>falling</td>
+      <td>-2.6</td>
+      <td>-3.5</td>
+      <td>-1.8</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>Yuba County(7)</td>
+      <td>6115.0</td>
+      <td>72.7</td>
+      <td>64.1</td>
+      <td>82.1</td>
+      <td>1</td>
+      <td>1</td>
+      <td>4</td>
+      <td>55</td>
+      <td>falling</td>
+      <td>-2.4</td>
+      <td>-3.8</td>
+      <td>-1</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>Lake County(7)</td>
+      <td>6033.0</td>
+      <td>66.7</td>
+      <td>59.7</td>
+      <td>74.4</td>
+      <td>2</td>
+      <td>1</td>
+      <td>6</td>
+      <td>72</td>
+      <td>falling</td>
+      <td>-2.7</td>
+      <td>-3.6</td>
+      <td>-1.9</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>Shasta County(7)</td>
+      <td>6089.0</td>
+      <td>59.7</td>
+      <td>55.6</td>
+      <td>64.1</td>
+      <td>3</td>
+      <td>2</td>
+      <td>9</td>
+      <td>165</td>
+      <td>falling</td>
+      <td>-2.3</td>
+      <td>-3.1</td>
+      <td>-1.6</td>
+    </tr>
+    <tr>
+      <th>...</th>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+    </tr>
+    <tr>
+      <th>83</th>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <th>84</th>
+      <td>Interpret Rankings provides insight into inter...</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <th>85</th>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <th>86</th>
+      <td>Data for the United States does not include da...</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <th>87</th>
+      <td>Data for the United States does not include Pu...</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+    </tr>
+  </tbody>
+</table>
+<p>88 rows × 13 columns</p>
+</div>
+      <button class="colab-df-convert" onclick="convertToInteractive('df-33932bf8-e26e-4be9-b373-d55b5d0ab4dc')"
+              title="Convert this dataframe to an interactive table."
+              style="display:none;">
+        
+  <svg xmlns="http://www.w3.org/2000/svg" height="24px"viewBox="0 0 24 24"
+       width="24px">
+    <path d="M0 0h24v24H0V0z" fill="none"/>
+    <path d="M18.56 5.44l.94 2.06.94-2.06 2.06-.94-2.06-.94-.94-2.06-.94 2.06-2.06.94zm-11 1L8.5 8.5l.94-2.06 2.06-.94-2.06-.94L8.5 2.5l-.94 2.06-2.06.94zm10 10l.94 2.06.94-2.06 2.06-.94-2.06-.94-.94-2.06-.94 2.06-2.06.94z"/><path d="M17.41 7.96l-1.37-1.37c-.4-.4-.92-.59-1.43-.59-.52 0-1.04.2-1.43.59L10.3 9.45l-7.72 7.72c-.78.78-.78 2.05 0 2.83L4 21.41c.39.39.9.59 1.41.59.51 0 1.02-.2 1.41-.59l7.78-7.78 2.81-2.81c.8-.78.8-2.07 0-2.86zM5.41 20L4 18.59l7.72-7.72 1.47 1.35L5.41 20z"/>
+  </svg>
+      </button>
+      
+  <style>
+    .colab-df-container {
+      display:flex;
+      flex-wrap:wrap;
+      gap: 12px;
+    }
+
+    .colab-df-convert {
+      background-color: #E8F0FE;
+      border: none;
+      border-radius: 50%;
+      cursor: pointer;
+      display: none;
+      fill: #1967D2;
+      height: 32px;
+      padding: 0 0 0 0;
+      width: 32px;
+    }
+
+    .colab-df-convert:hover {
+      background-color: #E2EBFA;
+      box-shadow: 0px 1px 2px rgba(60, 64, 67, 0.3), 0px 1px 3px 1px rgba(60, 64, 67, 0.15);
+      fill: #174EA6;
+    }
+
+    [theme=dark] .colab-df-convert {
+      background-color: #3B4455;
+      fill: #D2E3FC;
+    }
+
+    [theme=dark] .colab-df-convert:hover {
+      background-color: #434B5C;
+      box-shadow: 0px 1px 3px 1px rgba(0, 0, 0, 0.15);
+      filter: drop-shadow(0px 1px 2px rgba(0, 0, 0, 0.3));
+      fill: #FFFFFF;
+    }
+  </style>
+
+      <script>
+        const buttonEl =
+          document.querySelector('#df-33932bf8-e26e-4be9-b373-d55b5d0ab4dc button.colab-df-convert');
+        buttonEl.style.display =
+          google.colab.kernel.accessAllowed ? 'block' : 'none';
+
+        async function convertToInteractive(key) {
+          const element = document.querySelector('#df-33932bf8-e26e-4be9-b373-d55b5d0ab4dc');
+          const dataTable =
+            await google.colab.kernel.invokeFunction('convertToInteractive',
+                                                     [key], {});
+          if (!dataTable) return;
+
+          const docLinkHtml = 'Like what you see? Visit the ' +
+            '<a target="_blank" href=https://colab.research.google.com/notebooks/data_table.ipynb>data table notebook</a>'
+            + ' to learn more about interactive tables.';
+          element.innerHTML = '';
+          dataTable['output_type'] = 'display_data';
+          await google.colab.output.renderOutput(dataTable, element);
+          const docLink = document.createElement('div');
+          docLink.innerHTML = docLinkHtml;
+          element.appendChild(docLink);
+        }
+      </script>
+    </div>
+  </div>
+  
+</div>
+<div class="output stream stderr">
+<pre><code>&lt;ipython-input-438-746060d62ec2&gt;:9: FutureWarning: The default value of regex will change from True to False in a future version.
+  cancer[&#39;County&#39;] = cancer[&#39;County&#39;].str.replace(r&#39;\ County\(7\)$&#39;, &#39;&#39;)
+</code></pre>
+</div>
+<div class="output execute_result" data-execution_count="438">
+
+  <div id="df-cc6eb345-52c4-493e-89fb-0318b119fe35">
+    <div class="colab-df-container">
+      <div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>County</th>
+      <th>Age-Adjusted Incidence Rate([rate note]) - cases per 100,000</th>
+      <th>Average Annual Count</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>California(7)</td>
+      <td>39.4</td>
+      <td>17021</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>US (SEER+NPCR)(1)</td>
+      <td>56.3</td>
+      <td>223216</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>Yuba</td>
+      <td>72.7</td>
+      <td>55</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>Lake</td>
+      <td>66.7</td>
+      <td>72</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>Shasta</td>
+      <td>59.7</td>
+      <td>165</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+      <button class="colab-df-convert" onclick="convertToInteractive('df-cc6eb345-52c4-493e-89fb-0318b119fe35')"
+              title="Convert this dataframe to an interactive table."
+              style="display:none;">
+        
+  <svg xmlns="http://www.w3.org/2000/svg" height="24px"viewBox="0 0 24 24"
+       width="24px">
+    <path d="M0 0h24v24H0V0z" fill="none"/>
+    <path d="M18.56 5.44l.94 2.06.94-2.06 2.06-.94-2.06-.94-.94-2.06-.94 2.06-2.06.94zm-11 1L8.5 8.5l.94-2.06 2.06-.94-2.06-.94L8.5 2.5l-.94 2.06-2.06.94zm10 10l.94 2.06.94-2.06 2.06-.94-2.06-.94-.94-2.06-.94 2.06-2.06.94z"/><path d="M17.41 7.96l-1.37-1.37c-.4-.4-.92-.59-1.43-.59-.52 0-1.04.2-1.43.59L10.3 9.45l-7.72 7.72c-.78.78-.78 2.05 0 2.83L4 21.41c.39.39.9.59 1.41.59.51 0 1.02-.2 1.41-.59l7.78-7.78 2.81-2.81c.8-.78.8-2.07 0-2.86zM5.41 20L4 18.59l7.72-7.72 1.47 1.35L5.41 20z"/>
+  </svg>
+      </button>
+      
+  <style>
+    .colab-df-container {
+      display:flex;
+      flex-wrap:wrap;
+      gap: 12px;
+    }
+
+    .colab-df-convert {
+      background-color: #E8F0FE;
+      border: none;
+      border-radius: 50%;
+      cursor: pointer;
+      display: none;
+      fill: #1967D2;
+      height: 32px;
+      padding: 0 0 0 0;
+      width: 32px;
+    }
+
+    .colab-df-convert:hover {
+      background-color: #E2EBFA;
+      box-shadow: 0px 1px 2px rgba(60, 64, 67, 0.3), 0px 1px 3px 1px rgba(60, 64, 67, 0.15);
+      fill: #174EA6;
+    }
+
+    [theme=dark] .colab-df-convert {
+      background-color: #3B4455;
+      fill: #D2E3FC;
+    }
+
+    [theme=dark] .colab-df-convert:hover {
+      background-color: #434B5C;
+      box-shadow: 0px 1px 3px 1px rgba(0, 0, 0, 0.15);
+      filter: drop-shadow(0px 1px 2px rgba(0, 0, 0, 0.3));
+      fill: #FFFFFF;
+    }
+  </style>
+
+      <script>
+        const buttonEl =
+          document.querySelector('#df-cc6eb345-52c4-493e-89fb-0318b119fe35 button.colab-df-convert');
+        buttonEl.style.display =
+          google.colab.kernel.accessAllowed ? 'block' : 'none';
+
+        async function convertToInteractive(key) {
+          const element = document.querySelector('#df-cc6eb345-52c4-493e-89fb-0318b119fe35');
+          const dataTable =
+            await google.colab.kernel.invokeFunction('convertToInteractive',
+                                                     [key], {});
+          if (!dataTable) return;
+
+          const docLinkHtml = 'Like what you see? Visit the ' +
+            '<a target="_blank" href=https://colab.research.google.com/notebooks/data_table.ipynb>data table notebook</a>'
+            + ' to learn more about interactive tables.';
+          element.innerHTML = '';
+          dataTable['output_type'] = 'display_data';
+          await google.colab.output.renderOutput(dataTable, element);
+          const docLink = document.createElement('div');
+          docLink.innerHTML = docLinkHtml;
+          element.appendChild(docLink);
+        }
+      </script>
+    </div>
+  </div>
+  
+</div>
+</div>
+<div id="CmqFHCqUuC49" class="cell code" id="CmqFHCqUuC49">
+<div class="sourceCode" id="cb20"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb20-1"><a href="#cb20-1" aria-hidden="true" tabindex="-1"></a><span class="co">#Merging Cancer Rates DF, renaming columns</span></span>
+<span id="cb20-2"><a href="#cb20-2" aria-hidden="true" tabindex="-1"></a>avged_df <span class="op">=</span> pd.merge(avged_df,cancer, on<span class="op">=</span>[<span class="st">&#39;County&#39;</span>])</span>
+<span id="cb20-3"><a href="#cb20-3" aria-hidden="true" tabindex="-1"></a>avged_df <span class="op">=</span> avged_df.rename(columns<span class="op">=</span>{<span class="st">&#39;COPD_&amp;_Asthma_Deaths&#39;</span>: <span class="st">&#39;COPD_and_Asthma_Deaths&#39;</span>,<span class="st">&#39;Average Annual Count&#39;</span>: <span class="st">&#39;Average_annual_cancer&#39;</span>,</span>
+<span id="cb20-4"><a href="#cb20-4" aria-hidden="true" tabindex="-1"></a>                        <span class="st">&#39;Age-Adjusted Incidence Rate([rate note]) - cases per 100,000&#39;</span>: <span class="st">&#39;Age_adjusted_cancer_rate&#39;</span>})</span>
+<span id="cb20-5"><a href="#cb20-5" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb20-6"><a href="#cb20-6" aria-hidden="true" tabindex="-1"></a><span class="co">#Adding Income DF, Dropping Columns that we don&#39;t plan to use, and renaming columns.</span></span>
+<span id="cb20-7"><a href="#cb20-7" aria-hidden="true" tabindex="-1"></a>income_df <span class="op">=</span> pd.read_excel(<span class="st">&#39;California_Avg_Income_2019.xlsx&#39;</span>)</span>
+<span id="cb20-8"><a href="#cb20-8" aria-hidden="true" tabindex="-1"></a>avged_df <span class="op">=</span> pd.merge(avged_df,income_df, on<span class="op">=</span>[<span class="st">&#39;County&#39;</span>])</span>
+<span id="cb20-9"><a href="#cb20-9" aria-hidden="true" tabindex="-1"></a>avged_df <span class="op">=</span> avged_df[[<span class="st">&#39;County&#39;</span>, <span class="st">&#39;Year&#39;</span>, <span class="st">&#39;Num_hosp&#39;</span>, <span class="st">&#39;Adj_hosp_rate&#39;</span>, <span class="st">&#39;Median_aqi&#39;</span>,<span class="st">&#39;Age_adjusted_cancer_rate&#39;</span>, <span class="st">&#39;Num_hosp_adjusted_pop&#39;</span>,<span class="st">&#39;Population&#39;</span>,<span class="st">&#39;COPD_and_Asthma_Deaths&#39;</span>,<span class="st">&#39;Average_annual_cancer&#39;</span>,<span class="st">&#39;Average Income&#39;</span>]]</span>
+<span id="cb20-10"><a href="#cb20-10" aria-hidden="true" tabindex="-1"></a>avged_df <span class="op">=</span> avged_df <span class="op">=</span> avged_df.T.drop_duplicates().T</span>
+<span id="cb20-11"><a href="#cb20-11" aria-hidden="true" tabindex="-1"></a>avged_df <span class="op">=</span> avged_df.rename(columns<span class="op">=</span>{<span class="st">&#39;Average Income&#39;</span>: <span class="st">&#39;Average_income&#39;</span>})</span>
+<span id="cb20-12"><a href="#cb20-12" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb20-13"><a href="#cb20-13" aria-hidden="true" tabindex="-1"></a><span class="co">#Adjusting datatypes of columns to floats (to make it easier to do regressions and ML)</span></span>
+<span id="cb20-14"><a href="#cb20-14" aria-hidden="true" tabindex="-1"></a>avged_df[<span class="st">&#39;Age_adjusted_cancer_rate&#39;</span>] <span class="op">=</span> avged_df[<span class="st">&#39;Age_adjusted_cancer_rate&#39;</span>].astype(<span class="bu">float</span>)</span>
+<span id="cb20-15"><a href="#cb20-15" aria-hidden="true" tabindex="-1"></a>avged_df[<span class="st">&#39;Average_annual_cancer&#39;</span>] <span class="op">=</span> avged_df[<span class="st">&#39;Average_annual_cancer&#39;</span>].astype(<span class="bu">float</span>)</span>
+<span id="cb20-16"><a href="#cb20-16" aria-hidden="true" tabindex="-1"></a>avged_df[<span class="st">&#39;Num_hosp_adjusted_pop&#39;</span>] <span class="op">=</span> avged_df[<span class="st">&#39;Num_hosp_adjusted_pop&#39;</span>].astype(<span class="bu">float</span>)</span>
+<span id="cb20-17"><a href="#cb20-17" aria-hidden="true" tabindex="-1"></a>avged_df[<span class="st">&#39;Median_aqi&#39;</span>] <span class="op">=</span> avged_df[<span class="st">&#39;Median_aqi&#39;</span>].astype(<span class="bu">float</span>)</span>
+<span id="cb20-18"><a href="#cb20-18" aria-hidden="true" tabindex="-1"></a>avged_df[<span class="st">&#39;Average_income&#39;</span>] <span class="op">=</span> avged_df[<span class="st">&#39;Average_income&#39;</span>].astype(<span class="bu">float</span>)</span>
+<span id="cb20-19"><a href="#cb20-19" aria-hidden="true" tabindex="-1"></a>avged_df[<span class="st">&#39;COPD_and_Asthma_Deaths&#39;</span>] <span class="op">=</span> avged_df[<span class="st">&#39;COPD_and_Asthma_Deaths&#39;</span>].astype(<span class="bu">float</span>)</span>
+<span id="cb20-20"><a href="#cb20-20" aria-hidden="true" tabindex="-1"></a>avged_df[<span class="st">&#39;Population&#39;</span>] <span class="op">=</span> avged_df[<span class="st">&#39;Population&#39;</span>].astype(<span class="bu">float</span>)</span>
+<span id="cb20-21"><a href="#cb20-21" aria-hidden="true" tabindex="-1"></a>avged_df[<span class="st">&#39;Adjusted_COPD_and_Asthma_Deaths&#39;</span>] <span class="op">=</span> avged_df[<span class="st">&#39;COPD_and_Asthma_Deaths&#39;</span>] <span class="op">/</span> avged_df[<span class="st">&#39;Population&#39;</span>] </span></code></pre></div>
+</div>
+<div id="fEG81dP_9Wgw" class="cell code"
+data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;,&quot;height&quot;:493}"
+id="fEG81dP_9Wgw" data-outputId="0429d712-64ea-447d-f4af-ba2bf039fbe1">
+<div class="sourceCode" id="cb21"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb21-1"><a href="#cb21-1" aria-hidden="true" tabindex="-1"></a><span class="co">#Creates a seaborn scatterplot with a regression line for the median aqi vs average population per county</span></span>
+<span id="cb21-2"><a href="#cb21-2" aria-hidden="true" tabindex="-1"></a>aqi_vs_pop <span class="op">=</span> seaborn.regplot(x<span class="op">=</span>avged_df[<span class="st">&#39;Population&#39;</span>], y<span class="op">=</span>avged_df[<span class="st">&#39;Median_aqi&#39;</span>])</span>
+<span id="cb21-3"><a href="#cb21-3" aria-hidden="true" tabindex="-1"></a><span class="co">#Because the population of certain counties is much larger than others,</span></span>
+<span id="cb21-4"><a href="#cb21-4" aria-hidden="true" tabindex="-1"></a><span class="co">#we had to set the x-axis to a logrithmic scale instead of a linear one</span></span>
+<span id="cb21-5"><a href="#cb21-5" aria-hidden="true" tabindex="-1"></a>aqi_vs_pop.<span class="bu">set</span>(xscale<span class="op">=</span><span class="st">&quot;log&quot;</span>)</span>
+<span id="cb21-6"><a href="#cb21-6" aria-hidden="true" tabindex="-1"></a><span class="co">#Sets the range of y-axis to more effectively display the plot</span></span>
+<span id="cb21-7"><a href="#cb21-7" aria-hidden="true" tabindex="-1"></a>aqi_vs_pop.set_ylim(<span class="dv">25</span>, <span class="dv">100</span>)</span>
+<span id="cb21-8"><a href="#cb21-8" aria-hidden="true" tabindex="-1"></a>plt.title(<span class="st">&#39;Median aqi vs Population&#39;</span>)</span></code></pre></div>
+<div class="output execute_result" data-execution_count="440">
+<pre><code>Text(0.5, 1.0, &#39;Median aqi vs Population&#39;)</code></pre>
+</div>
+<div class="output display_data">
+<p><img
+src="vertopal_cb9835cceed84e4fa65ab44e7af117d9/0d3496064be2e1f3f41f5397ff3af99cb3c1f9ca.png" /></p>
+</div>
+</div>
+<div id="PJxvMgfOG1I_" class="cell markdown" id="PJxvMgfOG1I_">
+<p><strong>As you might expect, the air quality majorly decreases with
+population increases. Cities that hold the most people have lots of
+pollution in a dense area leading to lower air quality. Los Angeles
+County has the highest population by far, also sporting one of the
+highest median aqis</strong></p>
+</div>
+<div id="fdc600aa-e098-4801-853e-1fe286d6feb3" class="cell code"
+data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;,&quot;height&quot;:489}"
+id="fdc600aa-e098-4801-853e-1fe286d6feb3"
+data-outputId="b14e2ffe-5324-4ccd-ae80-9fd4eadb58a3">
+<div class="sourceCode" id="cb23"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb23-1"><a href="#cb23-1" aria-hidden="true" tabindex="-1"></a><span class="co">#comment</span></span>
+<span id="cb23-2"><a href="#cb23-2" aria-hidden="true" tabindex="-1"></a>plt1 <span class="op">=</span> df.plot.scatter(x<span class="op">=</span><span class="st">&#39;Median_aqi&#39;</span>,y<span class="op">=</span><span class="st">&#39;Num_hosp&#39;</span>,s<span class="op">=</span><span class="dv">5</span>)</span>
+<span id="cb23-3"><a href="#cb23-3" aria-hidden="true" tabindex="-1"></a>plt.title(<span class="st">&#39;Hospitalizations versus Median AQI. Unadjusted.&#39;</span>)</span>
+<span id="cb23-4"><a href="#cb23-4" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="st">&#39;Below is graph of Hospitalizations versus Median AQI, Unadjusted. Each dot is a county and year combination&#39;</span>)</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>Below is graph of Hospitalizations versus Median AQI, Unadjusted. Each dot is a county and year combination
+</code></pre>
+</div>
+<div class="output display_data">
+<p><img
+src="vertopal_cb9835cceed84e4fa65ab44e7af117d9/e59154459a416fb067005e67b80ea90c59993cbf.png" /></p>
+</div>
+</div>
+<div id="2901fd58-6e1f-4d32-8958-f23b262e1ab9" class="cell code"
+data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;,&quot;height&quot;:541}"
+id="2901fd58-6e1f-4d32-8958-f23b262e1ab9"
+data-outputId="48560010-3cce-45d8-debe-adf821707248">
+<div class="sourceCode" id="cb25"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb25-1"><a href="#cb25-1" aria-hidden="true" tabindex="-1"></a><span class="co">#Adjusting</span></span>
+<span id="cb25-2"><a href="#cb25-2" aria-hidden="true" tabindex="-1"></a><span class="co">#comment</span></span>
+<span id="cb25-3"><a href="#cb25-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb25-4"><a href="#cb25-4" aria-hidden="true" tabindex="-1"></a>df[<span class="st">&#39;Num_hosp_adjusted_pop&#39;</span>] <span class="op">=</span> df[<span class="st">&#39;Num_hosp&#39;</span>] <span class="op">/</span> df[<span class="st">&#39;Population&#39;</span>]</span>
+<span id="cb25-5"><a href="#cb25-5" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb25-6"><a href="#cb25-6" aria-hidden="true" tabindex="-1"></a>X <span class="op">=</span> df[<span class="st">&#39;Median_aqi&#39;</span>].values.reshape(<span class="op">-</span><span class="dv">1</span>, <span class="dv">1</span>)</span>
+<span id="cb25-7"><a href="#cb25-7" aria-hidden="true" tabindex="-1"></a>y1 <span class="op">=</span> df[<span class="st">&#39;Num_hosp_adjusted_pop&#39;</span>].values.reshape(<span class="op">-</span><span class="dv">1</span>, <span class="dv">1</span>)</span>
+<span id="cb25-8"><a href="#cb25-8" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb25-9"><a href="#cb25-9" aria-hidden="true" tabindex="-1"></a>reg <span class="op">=</span> LinearRegression().fit(X, y1)</span>
+<span id="cb25-10"><a href="#cb25-10" aria-hidden="true" tabindex="-1"></a>reg.score(X,y1)</span>
+<span id="cb25-11"><a href="#cb25-11" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb25-12"><a href="#cb25-12" aria-hidden="true" tabindex="-1"></a>plt1 <span class="op">=</span> df.plot.scatter(x<span class="op">=</span><span class="st">&#39;Median_aqi&#39;</span>,y<span class="op">=</span><span class="st">&#39;Num_hosp_adjusted_pop&#39;</span>,s<span class="op">=</span><span class="dv">5</span>)</span>
+<span id="cb25-13"><a href="#cb25-13" aria-hidden="true" tabindex="-1"></a>plt.plot(X, reg.predict(X),color<span class="op">=</span><span class="st">&#39;k&#39;</span>)</span>
+<span id="cb25-14"><a href="#cb25-14" aria-hidden="true" tabindex="-1"></a>plt.title(<span class="st">&#39;Hospitalizations versus Median AQI. Adjusted for population.&#39;</span>)</span>
+<span id="cb25-15"><a href="#cb25-15" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="st">&#39;Below is graph of Hospitalizations versus Median AQI, Adjusted for population. Each dot is a county and year combination&#39;</span>)</span>
+<span id="cb25-16"><a href="#cb25-16" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="st">&quot;&quot;&quot;Some flaws in our analysis. County and year data points for hospitalizations versus AQI are not independent. The number of hospitilizations</span></span>
+<span id="cb25-17"><a href="#cb25-17" aria-hidden="true" tabindex="-1"></a><span class="st">or risk of developing asthma in a given county is likely not just a factor of the pollution in that given year, but prolonged exposure (pollution in the </span></span>
+<span id="cb25-18"><a href="#cb25-18" aria-hidden="true" tabindex="-1"></a><span class="st">years and decades leading up to a given year. However, we are graphing each county/year combo as a data point&quot;&quot;&quot;</span>)</span>
+<span id="cb25-19"><a href="#cb25-19" aria-hidden="true" tabindex="-1"></a>    </span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>Below is graph of Hospitalizations versus Median AQI, Adjusted for population. Each dot is a county and year combination
+Some flaws in our analysis. County and year data points for hospitalizations versus AQI are not independent. The number of hospitilizations
+or risk of developing asthma in a given county is likely not just a factor of the pollution in that given year, but prolonged exposure (pollution in the 
+years and decades leading up to a given year. However, we are graphing each county/year combo as a data point
+</code></pre>
+</div>
+<div class="output display_data">
+<p><img
+src="vertopal_cb9835cceed84e4fa65ab44e7af117d9/4f53449976c24f1e80734c34608e557931cf76dd.png" /></p>
+</div>
+</div>
+<div id="812c578a-80d5-495d-be2f-b815f3ba8938" class="cell code"
+data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;,&quot;height&quot;:489}"
+id="812c578a-80d5-495d-be2f-b815f3ba8938"
+data-outputId="64dde647-662b-4420-98ad-995f61ff3491">
+<div class="sourceCode" id="cb27"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb27-1"><a href="#cb27-1" aria-hidden="true" tabindex="-1"></a>X <span class="op">=</span> df[<span class="st">&#39;Median_aqi&#39;</span>].values.reshape(<span class="op">-</span><span class="dv">1</span>, <span class="dv">1</span>)</span>
+<span id="cb27-2"><a href="#cb27-2" aria-hidden="true" tabindex="-1"></a>y1 <span class="op">=</span> df[<span class="st">&#39;Adj_hosp_rate&#39;</span>].values.reshape(<span class="op">-</span><span class="dv">1</span>, <span class="dv">1</span>)</span>
+<span id="cb27-3"><a href="#cb27-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb27-4"><a href="#cb27-4" aria-hidden="true" tabindex="-1"></a>reg <span class="op">=</span> LinearRegression().fit(X, y1)</span>
+<span id="cb27-5"><a href="#cb27-5" aria-hidden="true" tabindex="-1"></a>reg.score(X,y1)</span>
+<span id="cb27-6"><a href="#cb27-6" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb27-7"><a href="#cb27-7" aria-hidden="true" tabindex="-1"></a>plt1 <span class="op">=</span> df.plot.scatter(x<span class="op">=</span><span class="st">&#39;Median_aqi&#39;</span>,y<span class="op">=</span><span class="st">&#39;Adj_hosp_rate&#39;</span>,s<span class="op">=</span><span class="dv">5</span>)</span>
+<span id="cb27-8"><a href="#cb27-8" aria-hidden="true" tabindex="-1"></a>plt.plot(X, reg.predict(X),color<span class="op">=</span><span class="st">&#39;k&#39;</span>)</span>
+<span id="cb27-9"><a href="#cb27-9" aria-hidden="true" tabindex="-1"></a>plt.title(<span class="st">&#39;Age Adjusted Hospitalizations versus Median AQI. Adjusted for population.&#39;</span>)</span></code></pre></div>
+<div class="output execute_result" data-execution_count="443">
+<pre><code>Text(0.5, 1.0, &#39;Age Adjusted Hospitalizations versus Median AQI. Adjusted for population.&#39;)</code></pre>
+</div>
+<div class="output display_data">
+<p><img
+src="vertopal_cb9835cceed84e4fa65ab44e7af117d9/a572e6270a515da9794e5352404b767536caf3be.png" /></p>
+</div>
+</div>
+<div id="oxfZyuwKlmAh" class="cell code"
+data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;,&quot;height&quot;:1000}"
+id="oxfZyuwKlmAh" data-outputId="98eec835-e9d4-4337-b89f-1bccbc896d25">
+<div class="sourceCode" id="cb29"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb29-1"><a href="#cb29-1" aria-hidden="true" tabindex="-1"></a>grouped_df <span class="op">=</span> df.groupby(<span class="st">&#39;Year&#39;</span>)</span>
+<span id="cb29-2"><a href="#cb29-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb29-3"><a href="#cb29-3" aria-hidden="true" tabindex="-1"></a><span class="co"># Add labels for each point with the county name</span></span>
+<span id="cb29-4"><a href="#cb29-4" aria-hidden="true" tabindex="-1"></a><span class="cf">for</span> year, group <span class="kw">in</span> grouped_df:</span>
+<span id="cb29-5"><a href="#cb29-5" aria-hidden="true" tabindex="-1"></a>    plt.scatter(group[<span class="st">&#39;Median_aqi&#39;</span>], group[<span class="st">&#39;Num_hosp_adjusted_pop&#39;</span>], s<span class="op">=</span>group[<span class="st">&#39;Population&#39;</span>]<span class="op">/</span><span class="dv">3000</span>, c<span class="op">=</span><span class="bu">range</span>(<span class="bu">len</span>(group)), cmap<span class="op">=</span><span class="st">&#39;viridis&#39;</span>)</span>
+<span id="cb29-6"><a href="#cb29-6" aria-hidden="true" tabindex="-1"></a>    <span class="cf">for</span> i, row <span class="kw">in</span> group.iterrows():</span>
+<span id="cb29-7"><a href="#cb29-7" aria-hidden="true" tabindex="-1"></a>        plt.annotate(row[<span class="st">&#39;County&#39;</span>], xy<span class="op">=</span>(row[<span class="st">&#39;Median_aqi&#39;</span>], row[<span class="st">&#39;Num_hosp_adjusted_pop&#39;</span>]))</span>
+<span id="cb29-8"><a href="#cb29-8" aria-hidden="true" tabindex="-1"></a>    plt.xlabel(<span class="st">&#39;Median AQI&#39;</span>)</span>
+<span id="cb29-9"><a href="#cb29-9" aria-hidden="true" tabindex="-1"></a>    plt.ylabel(<span class="st">&#39;Rate of Asthma Hospitalizations&#39;</span>)</span>
+<span id="cb29-10"><a href="#cb29-10" aria-hidden="true" tabindex="-1"></a>    plt.title(<span class="ss">f&#39;Asthma Hospitalization Rate vs. AQI by County (</span><span class="sc">{</span>year<span class="sc">}</span><span class="ss">)&#39;</span>)</span>
+<span id="cb29-11"><a href="#cb29-11" aria-hidden="true" tabindex="-1"></a>    plt.show()</span></code></pre></div>
+<div class="output display_data">
+<p><img
+src="vertopal_cb9835cceed84e4fa65ab44e7af117d9/3b406d7ba5cfcb1a3d6b0a461ff9481195beabe7.png" /></p>
+</div>
+<div class="output display_data">
+<p><img
+src="vertopal_cb9835cceed84e4fa65ab44e7af117d9/0f21e34fbebc3b65de736c3b3212cf3b3ad37be5.png" /></p>
+</div>
+<div class="output display_data">
+<p><img
+src="vertopal_cb9835cceed84e4fa65ab44e7af117d9/32e14319b5345b1fe59cfe0b3c32bb5ae52d2c44.png" /></p>
+</div>
+<div class="output display_data">
+<p><img
+src="vertopal_cb9835cceed84e4fa65ab44e7af117d9/ca250bc51d5b1048534129ee2a3510564f2fee44.png" /></p>
+</div>
+<div class="output display_data">
+<p><img
+src="vertopal_cb9835cceed84e4fa65ab44e7af117d9/5bf089a4046140babe21a4739ba27d3327ee464f.png" /></p>
+</div>
+</div>
+<div id="Nw1hcALgrJOm" class="cell markdown" id="Nw1hcALgrJOm">
+<h1 id="hypothesis-testing">Hypothesis Testing</h1>
+<p>TODO:</p>
+</div>
+<div id="MW6NeeDp9Udb" class="cell code"
+data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;,&quot;height&quot;:489}"
+id="MW6NeeDp9Udb" data-outputId="b127e257-45bc-4216-b3e9-58f3f8bf11dc">
+<div class="sourceCode" id="cb30"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb30-1"><a href="#cb30-1" aria-hidden="true" tabindex="-1"></a><span class="co">#Creates another seaborn scatterplot with a linear regression, for median aqi vs average income</span></span>
+<span id="cb30-2"><a href="#cb30-2" aria-hidden="true" tabindex="-1"></a>aqi_vs_pop <span class="op">=</span> seaborn.regplot(x<span class="op">=</span>avged_df[<span class="st">&#39;Average_income&#39;</span>], y<span class="op">=</span>avged_df[<span class="st">&#39;Median_aqi&#39;</span>])</span>
+<span id="cb30-3"><a href="#cb30-3" aria-hidden="true" tabindex="-1"></a>plt.title(<span class="st">&#39;Median aqi vs Income&#39;</span>)</span></code></pre></div>
+<div class="output execute_result" data-execution_count="445">
+<pre><code>Text(0.5, 1.0, &#39;Median aqi vs Income&#39;)</code></pre>
+</div>
+<div class="output display_data">
+<p><img
+src="vertopal_cb9835cceed84e4fa65ab44e7af117d9/79d1947a1ca67bf506a728271ea7c6ff7422fda5.png" /></p>
+</div>
+</div>
+<div id="6fC-dTTGF-4E" class="cell markdown" id="6fC-dTTGF-4E">
+<h2
+id="ordinary-least-squares-regressions-for-asthma-hospitalizations">Ordinary
+Least Squares Regressions for Asthma Hospitalizations</h2>
+<p>Using statsmodels, we run an Ordinary Least Squares (OLS) regression
+for Asthma Hospitalizations (rate adjusted for county populations), with
+respect to median air quality index. Examining the printed regression
+results, we can see that our R-squared is relatively low, at .193. Our
+p-value for median air quality with respect to our dependent variable,
+asthma hospitalizations, is .002. A p-value measures the probability
+that our variable's impact occurs via random chance. Generally, if a
+p-value is less then 0.05, we can conclude that our variables impact is
+likely statistically significant. Therefore, we reject the null
+hypothesis, and we can conclude that air quality is statistically
+significant for asthma hospitilizations.</p>
+<p>Next, we run an OLS regression for Asthma Hospitalizations (rate
+adjusted for county populations) with respect to average income. The
+p-value of average income is 0.010, which also allows us to reject the
+null hypothesis and conclude that the average income of a given county
+is statistically significant for asthma hospitilizations in that county.
+Important to note that our r-values are relatively low for both of these
+models. This does not mean our models are incorrect or flawed, but
+rather that they are incomplete --- while our p-values tell us our
+predictors are significant, there are more predictors that we are not
+considering that are necessary to have a complete model. This makes
+sense, as health metrics in real life are complicated -- there are many
+more factors that go into health than just income and air quality.</p>
+</div>
+<div id="5sUDxv6f5lGY" class="cell code"
+data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;}"
+id="5sUDxv6f5lGY" data-outputId="41da17ff-b050-4043-a2d5-7b16606367f2">
+<div class="sourceCode" id="cb32"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb32-1"><a href="#cb32-1" aria-hidden="true" tabindex="-1"></a>mod <span class="op">=</span> smf.ols(formula<span class="op">=</span><span class="st">&#39;Num_hosp_adjusted_pop ~ Median_aqi&#39;</span>, data<span class="op">=</span>avged_df)</span>
+<span id="cb32-2"><a href="#cb32-2" aria-hidden="true" tabindex="-1"></a>res <span class="op">=</span> mod.fit()</span>
+<span id="cb32-3"><a href="#cb32-3" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(res.summary())</span>
+<span id="cb32-4"><a href="#cb32-4" aria-hidden="true" tabindex="-1"></a><span class="co">#OLS regression for number of hospitilizations for asthma (adjusted by populatiom) and median AQI. P value for median aqi is .002, </span></span>
+<span id="cb32-5"><a href="#cb32-5" aria-hidden="true" tabindex="-1"></a><span class="co">#which we can confidently reject our null hypothesis (Air Quality is statistically significant for asthma hospitilizations)</span></span>
+<span id="cb32-6"><a href="#cb32-6" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb32-7"><a href="#cb32-7" aria-hidden="true" tabindex="-1"></a>mod <span class="op">=</span> smf.ols(formula<span class="op">=</span><span class="st">&#39;Num_hosp_adjusted_pop ~ Average_income&#39;</span>, data<span class="op">=</span>avged_df)</span>
+<span id="cb32-8"><a href="#cb32-8" aria-hidden="true" tabindex="-1"></a>res <span class="op">=</span> mod.fit()</span>
+<span id="cb32-9"><a href="#cb32-9" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(res.summary())</span>
+<span id="cb32-10"><a href="#cb32-10" aria-hidden="true" tabindex="-1"></a><span class="co">#OLS regression for number of hospitilizations for asthma (adjusted by populatiom) and income, p value for average_income is .01, </span></span>
+<span id="cb32-11"><a href="#cb32-11" aria-hidden="true" tabindex="-1"></a><span class="co">#which we can confidently reject our null hypothesis (Income is statistically significant for asthma hospitilizations)</span></span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>                              OLS Regression Results                             
+=================================================================================
+Dep. Variable:     Num_hosp_adjusted_pop   R-squared:                       0.193
+Model:                               OLS   Adj. R-squared:                  0.175
+Method:                    Least Squares   F-statistic:                     10.53
+Date:                   Sat, 13 May 2023   Prob (F-statistic):            0.00225
+Time:                           03:14:12   Log-Likelihood:                 353.40
+No. Observations:                     46   AIC:                            -702.8
+Df Residuals:                         44   BIC:                            -699.1
+Df Model:                              1                                         
+Covariance Type:               nonrobust                                         
+==============================================================================
+                 coef    std err          t      P&gt;|t|      [0.025      0.975]
+------------------------------------------------------------------------------
+Intercept      0.0003   6.16e-05      4.132      0.000       0.000       0.000
+Median_aqi  3.908e-06    1.2e-06      3.245      0.002    1.48e-06    6.33e-06
+==============================================================================
+Omnibus:                        5.511   Durbin-Watson:                   1.741
+Prob(Omnibus):                  0.064   Jarque-Bera (JB):                4.442
+Skew:                           0.731   Prob(JB):                        0.108
+Kurtosis:                       3.427   Cond. No.                         187.
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+                              OLS Regression Results                             
+=================================================================================
+Dep. Variable:     Num_hosp_adjusted_pop   R-squared:                       0.142
+Model:                               OLS   Adj. R-squared:                  0.123
+Method:                    Least Squares   F-statistic:                     7.294
+Date:                   Sat, 13 May 2023   Prob (F-statistic):            0.00979
+Time:                           03:14:12   Log-Likelihood:                 351.99
+No. Observations:                     46   AIC:                            -700.0
+Df Residuals:                         44   BIC:                            -696.3
+Df Model:                              1                                         
+Covariance Type:               nonrobust                                         
+==================================================================================
+                     coef    std err          t      P&gt;|t|      [0.025      0.975]
+----------------------------------------------------------------------------------
+Intercept          0.0006   4.52e-05     12.374      0.000       0.000       0.001
+Average_income -1.899e-09   7.03e-10     -2.701      0.010   -3.32e-09   -4.82e-10
+==============================================================================
+Omnibus:                        4.793   Durbin-Watson:                   1.752
+Prob(Omnibus):                  0.091   Jarque-Bera (JB):                4.199
+Skew:                           0.740   Prob(JB):                        0.122
+Kurtosis:                       3.036   Cond. No.                     1.68e+05
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+[2] The condition number is large, 1.68e+05. This might indicate that there are
+strong multicollinearity or other numerical problems.
+</code></pre>
+</div>
+</div>
+<div id="dDgKBKX_5usq" class="cell code"
+data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;}"
+id="dDgKBKX_5usq" data-outputId="78ace237-7478-4fa4-dbff-6364af652152">
+<div class="sourceCode" id="cb34"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb34-1"><a href="#cb34-1" aria-hidden="true" tabindex="-1"></a>mod <span class="op">=</span> smf.ols(formula<span class="op">=</span><span class="st">&#39;Age_adjusted_cancer_rate ~ Median_aqi&#39;</span>, data<span class="op">=</span>avged_df)</span>
+<span id="cb34-2"><a href="#cb34-2" aria-hidden="true" tabindex="-1"></a>res <span class="op">=</span> mod.fit()</span>
+<span id="cb34-3"><a href="#cb34-3" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(res.summary())</span>
+<span id="cb34-4"><a href="#cb34-4" aria-hidden="true" tabindex="-1"></a><span class="co">#OLS regression for number of hospitilizations for cancer (adjusted by populatiom) and median AQI. P value for median aqi is .149, </span></span>
+<span id="cb34-5"><a href="#cb34-5" aria-hidden="true" tabindex="-1"></a><span class="co">#which is too high to confidently reject our null hypothesis. (We cannot conclude Income is statistically significant for cancer rates)</span></span>
+<span id="cb34-6"><a href="#cb34-6" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb34-7"><a href="#cb34-7" aria-hidden="true" tabindex="-1"></a>mod <span class="op">=</span> smf.ols(formula<span class="op">=</span><span class="st">&#39;Age_adjusted_cancer_rate ~ Average_income&#39;</span>, data<span class="op">=</span>avged_df)</span>
+<span id="cb34-8"><a href="#cb34-8" aria-hidden="true" tabindex="-1"></a>res <span class="op">=</span> mod.fit()</span>
+<span id="cb34-9"><a href="#cb34-9" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(res.summary())</span>
+<span id="cb34-10"><a href="#cb34-10" aria-hidden="true" tabindex="-1"></a><span class="co">#OLS regression for number of hospitilizations for asthma (adjusted by populatiom) and average income. P value is .003, </span></span>
+<span id="cb34-11"><a href="#cb34-11" aria-hidden="true" tabindex="-1"></a><span class="co">#So we can confidently reject our null hypothesis. (Income is statistically significant for cancer rates)</span></span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>                               OLS Regression Results                               
+====================================================================================
+Dep. Variable:     Age_adjusted_cancer_rate   R-squared:                       0.047
+Model:                                  OLS   Adj. R-squared:                  0.025
+Method:                       Least Squares   F-statistic:                     2.157
+Date:                      Sat, 13 May 2023   Prob (F-statistic):              0.149
+Time:                              03:14:12   Log-Likelihood:                -157.27
+No. Observations:                        46   AIC:                             318.5
+Df Residuals:                            44   BIC:                             322.2
+Df Model:                                 1                                         
+Covariance Type:                  nonrobust                                         
+==============================================================================
+                 coef    std err          t      P&gt;|t|      [0.025      0.975]
+------------------------------------------------------------------------------
+Intercept     48.7068      4.079     11.939      0.000      40.485      56.929
+Median_aqi    -0.1172      0.080     -1.469      0.149      -0.278       0.044
+==============================================================================
+Omnibus:                        4.430   Durbin-Watson:                   1.860
+Prob(Omnibus):                  0.109   Jarque-Bera (JB):                3.636
+Skew:                           0.684   Prob(JB):                        0.162
+Kurtosis:                       3.165   Cond. No.                         187.
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+                               OLS Regression Results                               
+====================================================================================
+Dep. Variable:     Age_adjusted_cancer_rate   R-squared:                       0.179
+Model:                                  OLS   Adj. R-squared:                  0.160
+Method:                       Least Squares   F-statistic:                     9.576
+Date:                      Sat, 13 May 2023   Prob (F-statistic):            0.00342
+Time:                              03:14:12   Log-Likelihood:                -153.84
+No. Observations:                        46   AIC:                             311.7
+Df Residuals:                            44   BIC:                             315.3
+Df Model:                                 1                                         
+Covariance Type:                  nonrobust                                         
+==================================================================================
+                     coef    std err          t      P&gt;|t|      [0.025      0.975]
+----------------------------------------------------------------------------------
+Intercept         50.6500      2.697     18.784      0.000      45.216      56.084
+Average_income    -0.0001   4.19e-05     -3.094      0.003      -0.000   -4.53e-05
+==============================================================================
+Omnibus:                        5.573   Durbin-Watson:                   2.234
+Prob(Omnibus):                  0.062   Jarque-Bera (JB):                4.395
+Skew:                           0.702   Prob(JB):                        0.111
+Kurtosis:                       3.568   Cond. No.                     1.68e+05
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+[2] The condition number is large, 1.68e+05. This might indicate that there are
+strong multicollinearity or other numerical problems.
+</code></pre>
+</div>
+</div>
+<div id="5DA_Uvvr5zNr" class="cell code"
+data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;}"
+id="5DA_Uvvr5zNr" data-outputId="8cf39e69-2dd8-4b6b-af31-dec1de5d5827">
+<div class="sourceCode" id="cb36"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb36-1"><a href="#cb36-1" aria-hidden="true" tabindex="-1"></a>mod <span class="op">=</span> smf.ols(formula<span class="op">=</span><span class="st">&#39;Adjusted_COPD_and_Asthma_Deaths ~ Median_aqi&#39;</span>, data<span class="op">=</span>avged_df)</span>
+<span id="cb36-2"><a href="#cb36-2" aria-hidden="true" tabindex="-1"></a>res <span class="op">=</span> mod.fit()</span>
+<span id="cb36-3"><a href="#cb36-3" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(res.summary())</span>
+<span id="cb36-4"><a href="#cb36-4" aria-hidden="true" tabindex="-1"></a><span class="co">#OLS regression for number of hospitilizations for COPD and Asthma Deaths</span></span>
+<span id="cb36-5"><a href="#cb36-5" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb36-6"><a href="#cb36-6" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb36-7"><a href="#cb36-7" aria-hidden="true" tabindex="-1"></a>mod <span class="op">=</span> smf.ols(formula<span class="op">=</span><span class="st">&#39;Adjusted_COPD_and_Asthma_Deaths ~ Average_income&#39;</span>, data<span class="op">=</span>avged_df)</span>
+<span id="cb36-8"><a href="#cb36-8" aria-hidden="true" tabindex="-1"></a>res <span class="op">=</span> mod.fit()</span>
+<span id="cb36-9"><a href="#cb36-9" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(res.summary())</span>
+<span id="cb36-10"><a href="#cb36-10" aria-hidden="true" tabindex="-1"></a><span class="co">#OLS regression for number of hospitilizations for asthma (adjusted by populatiom) and median AQI. P value for median aqi is .002, </span></span>
+<span id="cb36-11"><a href="#cb36-11" aria-hidden="true" tabindex="-1"></a><span class="co">#which we can confidently reject our null hypothesis</span></span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>                                   OLS Regression Results                                  
+===========================================================================================
+Dep. Variable:     Adjusted_COPD_and_Asthma_Deaths   R-squared:                       0.132
+Model:                                         OLS   Adj. R-squared:                  0.112
+Method:                              Least Squares   F-statistic:                     6.686
+Date:                             Sat, 13 May 2023   Prob (F-statistic):             0.0131
+Time:                                     03:14:12   Log-Likelihood:                 265.70
+No. Observations:                               46   AIC:                            -527.4
+Df Residuals:                                   44   BIC:                            -523.7
+Df Model:                                        1                                         
+Covariance Type:                         nonrobust                                         
+==============================================================================
+                 coef    std err          t      P&gt;|t|      [0.025      0.975]
+------------------------------------------------------------------------------
+Intercept      0.0022      0.000      5.203      0.000       0.001       0.003
+Median_aqi -2.096e-05    8.1e-06     -2.586      0.013   -3.73e-05   -4.62e-06
+==============================================================================
+Omnibus:                       15.079   Durbin-Watson:                   1.663
+Prob(Omnibus):                  0.001   Jarque-Bera (JB):               17.039
+Skew:                           1.227   Prob(JB):                     0.000200
+Kurtosis:                       4.693   Cond. No.                         187.
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+                                   OLS Regression Results                                  
+===========================================================================================
+Dep. Variable:     Adjusted_COPD_and_Asthma_Deaths   R-squared:                       0.157
+Model:                                         OLS   Adj. R-squared:                  0.138
+Method:                              Least Squares   F-statistic:                     8.213
+Date:                             Sat, 13 May 2023   Prob (F-statistic):            0.00636
+Time:                                     03:14:12   Log-Likelihood:                 266.38
+No. Observations:                               46   AIC:                            -528.8
+Df Residuals:                                   44   BIC:                            -525.1
+Df Model:                                        1                                         
+Covariance Type:                         nonrobust                                         
+==================================================================================
+                     coef    std err          t      P&gt;|t|      [0.025      0.975]
+----------------------------------------------------------------------------------
+Intercept          0.0019      0.000      6.517      0.000       0.001       0.002
+Average_income -1.296e-08   4.52e-09     -2.866      0.006   -2.21e-08   -3.85e-09
+==============================================================================
+Omnibus:                       14.551   Durbin-Watson:                   2.098
+Prob(Omnibus):                  0.001   Jarque-Bera (JB):               16.919
+Skew:                           1.133   Prob(JB):                     0.000212
+Kurtosis:                       4.922   Cond. No.                     1.68e+05
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+[2] The condition number is large, 1.68e+05. This might indicate that there are
+strong multicollinearity or other numerical problems.
+</code></pre>
+</div>
+</div>
+<div id="2ed13432-dade-4af7-85f2-9d864658f067" class="cell raw"
+id="2ed13432-dade-4af7-85f2-9d864658f067">
+
+</div>
+<div id="vPUKIaaZHGyO" class="cell code" id="vPUKIaaZHGyO">
+<div class="sourceCode" id="cb38"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb38-1"><a href="#cb38-1" aria-hidden="true" tabindex="-1"></a><span class="op">%%</span>shell</span>
+<span id="cb38-2"><a href="#cb38-2" aria-hidden="true" tabindex="-1"></a>jupyter nbconvert <span class="op">--</span>to html <span class="op">/</span>PATH<span class="op">/</span>TO<span class="op">/</span>YOUR<span class="op">/</span>NOTEBOOKFILE.ipynb</span></code></pre></div>
+</div>
+<div id="kMwPPNnjq25F" class="cell markdown" id="kMwPPNnjq25F">
+<p>#Conclusion TODO: Summarize key takeaways from hypothesis testing and
+machine learning results about what air pollution correlates with
+most</p>
+</div>
+</body>
+</html>
