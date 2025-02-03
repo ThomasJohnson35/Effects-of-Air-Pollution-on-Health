@@ -8,6 +8,6 @@ Key aspects of this project include:
 * Exploratory data analysis (EDA) and visualization of pollution trends
 * Regression modeling to estimate health risks based on pollution exposure
 
-To review the code, methodology, and findings of this project please visit the following link:
+In order to make both the findings and the methodology of this project convenient for review, the following link (which parses the above HTML) has been provided:
 
 [Project Breakdown](https://htmlpreview.github.io/?https://github.com/ThomasJohnson35/ThomasJohnson35.github.io/blob/main/FinalTutorialUpload.html)
